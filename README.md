@@ -2,7 +2,7 @@
 
 ## 🧑🏻‍💻　自己紹介
 
-[simochee](https://avatars0.githubusercontent.com/u/57135584?s=240&v=4)
+<img src="//avatars0.githubusercontent.com/u/57135584?s=240&v=4" alt="simochee">
 
 **simochee**
 
