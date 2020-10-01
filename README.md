@@ -1,6 +1,10 @@
 <img src="assets/logo.svg" alt="lollipop.onl by simochee">
 
-## 🖼 Works
+## 🧑🏻‍💻 自己紹介
+
+🚧🚧🚧 WIP 🚧🚧🚧
+
+## 🖼　Works
 
 ### npmパッケージ
 
@@ -14,7 +18,7 @@
 * [TypeScriptでVue.set/deleteを型安全にするライブラリ作った - Qiita](https://qiita.com/simochee/items/89f4b17fe971b4571961)
 * [TypeScript 4.1 の Template Literal Types を試してみよう | Zenn](https://zenn.dev/lollipop_onl/articles/ef532c02fc51db20d832)
 
-## 🔗 Links
+## 🔗　Links
 
 * Zenn [@lollipop_onl](https://zenn.dev/lollipop_onl)
 * Qiita [@simochee](https://qiita.com/simochee)
