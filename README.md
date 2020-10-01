@@ -1,4 +1,4 @@
-[lollipop.onl by simochee](assets/logo.svg)
+<img src="assets/logo.svg" alt="lollipop.onl by simochee">
 
 # 🖼 Works
 
