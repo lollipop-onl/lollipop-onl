@@ -1,1 +1,1 @@
-<img src="assets/logo.svg" alt="lollipop.onl by simochee" />
+<img src="assets/logo.svg" alt="lollipop.onl by simochee" style="display: block; width: 320px; max-width: 100%; margin: 0 auto" />
