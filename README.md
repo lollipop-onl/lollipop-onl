@@ -32,7 +32,7 @@
 
 ### その他
 
-* [Frontend Architecture of teamLab - Speaker Deck](https://speakerdeck.com/simochee/frontend-architecture-of-teamlab) ... 所属するチームラボにて使用しているフロントエンドのアーキテクチャに関してまとめたスライド
+* [Frontend Architecture of teamLab - Speaker Deck](https://speakerdeck.com/simochee/frontend-architecture-of-teamlab)
 * [育てるゴミ分別案内LINEボット](https://www.city.ube.yamaguchi.jp/shisei/keikaku/jouhoudenshi/opendata/contest2017/contest2017result.html) ... 第3回オープンデータアプリコンテスト宇部にて最優秀賞・特別賞を受賞した作品
 * [Ube Emergency Tools(UET)](https://www.city.ube.yamaguchi.jp/shisei/keikaku/jouhoudenshi/opendata/contest_16.html) ... 第2回オープンデータアプリコンテスト宇部にて特別賞を受賞した作品
 
