@@ -2,10 +2,6 @@
 
 ## 🧑🏻‍💻　自己紹介
 
-<img src="//avatars0.githubusercontent.com/u/57135584?s=240&v=4" alt="simochee">
-
-**simochee**
-
 🚧🚧🚧　WIP　🚧🚧🚧
 
 ### 略歴
@@ -45,5 +41,5 @@
 * Zenn [@lollipop_onl](https://zenn.dev/lollipop_onl)
 * Qiita [@simochee](https://qiita.com/simochee)
 * Twitter [@lollipop_onl](https://twitter.com/lollipop_onl)
-* GitHubリポジトリ [@lollipop-onl](https://github.com/lollipop-onl)
+* GitHub [@lollipop-onl](https://github.com/lollipop-onl)
 * npmパッケージ [@lollipop-onl](https://www.npmjs.com/~lollipop-onl)
