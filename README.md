@@ -29,6 +29,9 @@
 * [はじめてのvue-property-decorator (nuxtにも対応） - Qiita](https://qiita.com/simochee/items/e5b77af4aa36bd0f32e5)
 * [TypeScriptでVue.set/deleteを型安全にするライブラリ作った - Qiita](https://qiita.com/simochee/items/89f4b17fe971b4571961)
 * [TypeScript 4.1 の Template Literal Types を試してみよう | Zenn](https://zenn.dev/lollipop_onl/articles/ef532c02fc51db20d832)
+* [Chrome DevTools Console で使える便利なコマンド](https://zenn.dev/lollipop_onl/articles/eoz-devtools-console-commands)
+* [TypeScript 4.1 で追加された noUncheckedIndexedAccess とは何か](https://zenn.dev/lollipop_onl/articles/eoz-ts-no-unchecked-indexed-access)
+* [短いクラス名で運用できる CSS設計 rscss を CSS Modules 向けにアレンジしてみた](https://zenn.dev/lollipop_onl/articles/eoz-rscss-in-css-modules)
 
 ### その他
 
