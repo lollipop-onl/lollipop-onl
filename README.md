@@ -26,7 +26,7 @@
 
 ### ブラウザ拡張機能
 
-* Backlog Notification [Chrome](https://chrome.google.com/webstore/detail/backlog-notification-exte/gmmfbpjchelnedibjoidghghnigggebn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-notification-extension/) ... Nulab Backlog のお知らせを通知する拡張機能
+* [Backlog Notification](https://github.com/lollipop-onl/webextensions-backlog-notification) ... Nulab Backlog のお知らせを通知する拡張機能 ([Chrome](https://chrome.google.com/webstore/detail/backlog-notification-exte/gmmfbpjchelnedibjoidghghnigggebn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-notification-extension/))
 
 ### 記事
 
