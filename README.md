@@ -24,6 +24,10 @@
 * [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ
 * [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ
 
+### ブラウザ拡張機能
+
+* Backlog Notification [Chrome](https://chrome.google.com/webstore/detail/backlog-notification-exte/gmmfbpjchelnedibjoidghghnigggebn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-notification-extension/) ... Nulab Backlog のお知らせを通知する拡張機能
+
 ### 記事
 
 * [はじめてのvue-property-decorator (nuxtにも対応） - Qiita](https://qiita.com/simochee/items/e5b77af4aa36bd0f32e5)
