@@ -1,8 +1,6 @@
 ## Self-Introduction
 
-<img src="/assets/avatar1.png" alt="Avatar" width="48" height="48">
-<img src="/assets/avatar2.png" alt="Avatar" width="48" height="48">
-<img src="/assets/avatar3.png" alt="Avatar" width="48" height="48">
+<img src="./assets/avatar3.png" alt="Avatar" width="80" height="80"> <img src="./assets/avatar2.png" alt="Avatar" width="80" height="80"> <img src="./assets/avatar1.png" alt="Avatar" width="80" height="80">
 
 ### Biography
 
