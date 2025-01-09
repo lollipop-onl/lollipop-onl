@@ -33,7 +33,7 @@
 
 ### Websites
 
-* [DirectoryTree Editor](https://tree.tools.lollipop.onl/) ... ディレクトリ構成をインデントから作成するツール
+* [DirectoryTree Editor](https://tree.lollipop.onl/) ... ディレクトリ構成をインデントから作成するツール
 * [Scrapbox TimeMachine](https://scrapbox-timemachine.lollipop.onl/) ... ScrapboxのCommitログから過去の内容を復元するツール
 * [Passport MRZ Simulator](https://mrz.lollipop.onl) ... パスポートの MRZ 部分を生成するツール
 * [第53回 宇部高専高専祭ホームページ](http://nitucfes53.web.fc2.com/) ... 学生時代に作成した文化祭の公式サイト
