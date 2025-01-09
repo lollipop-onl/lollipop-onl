@@ -1,5 +1,3 @@
-## Self-Introduction
-
 <img src="./assets/avatar3.png" alt="Avatar" width="80" height="80"> <img src="./assets/avatar2.png" alt="Avatar" width="80" height="80"> <img src="./assets/avatar1.png" alt="Avatar" width="80" height="80">
 
 福岡でフロントエンドエンジニアをやっています。
@@ -11,12 +9,9 @@
 
 ### Accounts
 
-* Zenn [@lollipop_onl](https://zenn.dev/lollipop_onl)
-* Qiita [@simochee](https://qiita.com/simochee)
-* X [@lollipop_onl](https://x.com/lollipop_onl)
-* GitHub [@lollipop-onl](https://github.com/lollipop-onl), [@simochee](https://github.com/simochee)
-* npm [@lollipop-onl](https://www.npmjs.com/~lollipop-onl)
-* しずかなインターネット [@simochee](https://sizu.me/simochee)
+| Zenn | Qiita | X | GitHub | npm | しずかなインターネット |
+| --- | --- | --- | --- | --- | --- |
+| [@lollipop_onl](https://zenn.dev/lollipop_onl) | [@simochee](https://qiita.com/simochee) | [@lollipop_onl](https://x.com/lollipop_onl) | [@lollipop-onl](https://github.com/lollipop-onl)<br>[@simochee](https://github.com/simochee) | [@lollipop-onl](https://www.npmjs.com/~lollipop-onl) | [@simochee](https://sizu.me/simochee) |
 
 ## Works
 
