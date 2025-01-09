@@ -2,16 +2,14 @@
 
 福岡でフロントエンドエンジニアをやっています。
 
+| Zenn | Qiita | X | GitHub | npm | しずかなインターネット |
+| --- | --- | --- | --- | --- | --- |
+| [@lollipop_onl](https://zenn.dev/lollipop_onl) | [@simochee](https://qiita.com/simochee) | [@lollipop_onl](https://x.com/lollipop_onl) | [@lollipop-onl](https://github.com/lollipop-onl)<br>[@simochee](https://github.com/simochee) | [@lollipop-onl](https://www.npmjs.com/~lollipop-onl) | [@simochee](https://sizu.me/simochee) |
+
 ### Biography
 
 2018/03 - 宇部工業高等専門学校 制御情報工学科 卒業  
 2018/04 - チームラボ株式会社 入社
-
-### Accounts
-
-| Zenn | Qiita | X | GitHub | npm | しずかなインターネット |
-| --- | --- | --- | --- | --- | --- |
-| [@lollipop_onl](https://zenn.dev/lollipop_onl) | [@simochee](https://qiita.com/simochee) | [@lollipop_onl](https://x.com/lollipop_onl) | [@lollipop-onl](https://github.com/lollipop-onl)<br>[@simochee](https://github.com/simochee) | [@lollipop-onl](https://www.npmjs.com/~lollipop-onl) | [@simochee](https://sizu.me/simochee) |
 
 ## Works
 
