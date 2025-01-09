@@ -2,6 +2,8 @@
 
 <img src="./assets/avatar3.png" alt="Avatar" width="80" height="80"> <img src="./assets/avatar2.png" alt="Avatar" width="80" height="80"> <img src="./assets/avatar1.png" alt="Avatar" width="80" height="80">
 
+福岡でフロントエンドエンジニアをやっています。
+
 ### Biography
 
 2018/03 - 宇部工業高等専門学校 制御情報工学科 卒業  
@@ -18,13 +20,6 @@
 
 ## Works
 
-### Websites
-
-* [DirectoryTree Editor](https://tree.tools.lollipop.onl/) ... ディレクトリ構成をインデントから作成するツール
-* [Scrapbox TimeMachine](https://scrapbox-timemachine.lollipop.onl/) ... ScrapboxのCommitログから過去の内容を復元するツール
-* [第53回 宇部高専高専祭ホームページ](http://nitucfes53.web.fc2.com/) ... 学生時代に作成した文化祭の公式サイト
-* [宇部高専鉄道研究愛好会 - URRC](http://urrc.web.fc2.com/) ... 学生時代に作成した鉄道愛好会の公式サイト
-
 ### npm Packages
 
 * [copylen](https://www.npmjs.com/package/copylen) ... 文字数ごとに分割してコピーする CLI
@@ -35,6 +30,16 @@
 * [@lollipop-onl/vuex-typesafe-helper](https://www.npmjs.com/package/@lollipop-onl/vuex-typesafe-helper) ... Vuexストアを型安全にするヘルパーライブラリ
 * [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ
 * [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ
+
+### Websites
+
+* [DirectoryTree Editor](https://tree.tools.lollipop.onl/) ... ディレクトリ構成をインデントから作成するツール
+* [Scrapbox TimeMachine](https://scrapbox-timemachine.lollipop.onl/) ... ScrapboxのCommitログから過去の内容を復元するツール
+* [Passport MRZ Simulator](https://mrz.lollipop.onl) ... パスポートの MRZ 部分を生成するツール
+* [第53回 宇部高専高専祭ホームページ](http://nitucfes53.web.fc2.com/) ... 学生時代に作成した文化祭の公式サイト
+* [宇部高専鉄道研究愛好会 - URRC](http://urrc.web.fc2.com/) ... 学生時代に作成した鉄道愛好会の公式サイト
+* 結婚式 Web招待状 (非公開) ... 自身の結婚式で Web 招待状を自作。併せて、回答の LINE 通知など周辺の機能も実装
+* 結婚式 Webアルバム（非公開） ... 自身の結婚式の写真を Web で閲覧できるサイトを自作。パスワードによる認証と署名付きURLによる画像参照で部外者からの閲覧を制限
 
 ### Browser Extensions
 
