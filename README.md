@@ -79,3 +79,9 @@
 * [Frontend Architecture of teamLab - Speaker Deck](https://speakerdeck.com/simochee/frontend-architecture-of-teamlab)
 * [育てるゴミ分別案内LINEボット](https://www.city.ube.yamaguchi.jp/shisei/keikaku/jouhoudenshi/opendata/contest2017/contest2017result.html) ... 第3回オープンデータアプリコンテスト宇部にて最優秀賞・特別賞を受賞した作品
 * [Ube Emergency Tools(UET)](https://www.city.ube.yamaguchi.jp/shisei/keikaku/jouhoudenshi/opendata/contest_16.html) ... 第2回オープンデータアプリコンテスト宇部にて特別賞を受賞した作品
+
+### Photos
+
+| ![](./assets/20170619.webp) |  ![](./assets/20210510.webp) |
+| --- | --- |
+| <small><b>トワイライトエクスプレス瑞風のぼり初便を安岡駅付近で</b><br><i>2017/06/19 撮影</i></small> | <small><b>浦安市船籍のマークトウェイン号を東京ディズニーランドにて</b><br><i>2021/05/10 撮影</i></small> |
