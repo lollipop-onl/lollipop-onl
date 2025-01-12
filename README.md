@@ -82,6 +82,12 @@
 
 ### Photos
 
+<details><summary>Toggle Photo Gallery</summary>
+<p>
+
 | ![](./assets/20170619.webp) |  ![](./assets/20210510.webp) |
 | --- | --- |
 | <small><b>トワイライトエクスプレス瑞風のぼり初便を安岡駅付近で</b><br><i>2017/06/19 撮影</i></small> | <small><b>浦安市船籍のマークトウェイン号を東京ディズニーランドにて</b><br><i>2021/05/10 撮影</i></small> |
+
+</p>
+</details>
