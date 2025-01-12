@@ -15,14 +15,35 @@
 
 ### npm Packages
 
-* [copylen](https://www.npmjs.com/package/copylen) ... 文字数ごとに分割してコピーする CLI
-* [docsify-serve](https://www.npmjs.com/package/docsify-serve) ... Live Server のオプションを拡張した Docsify サーバー
-* [docsify-plugin-github-footer](https://www.npmjs.com/package/docsify-plugin-github-footer) ... Docsify で GitHub での編集リンクをフッターに追加するプラグイン
-* [docsify-plugin-page-history](https://www.npmjs.com/package/docsify-plugin-page-history) ... Docsify でページごとの変更履歴を残せるプラグイン
-* [docsify-plugin-ga](https://www.npmjs.com/package/docsify-plugin-ga) ... Docsify で GA4 を利用するプラグイン
-* [@lollipop-onl/vuex-typesafe-helper](https://www.npmjs.com/package/@lollipop-onl/vuex-typesafe-helper) ... Vuexストアを型安全にするヘルパーライブラリ
-* [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ
-* [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ
+* [copylen](https://www.npmjs.com/package/copylen) ... 文字数ごとに分割してコピーする CLI  
+![NPM Version](https://img.shields.io/npm/v/copylen) ![NPM Downloads](https://img.shields.io/npm/dy/copylen) ![NPM Last Update](https://img.shields.io/npm/last-update/copylen) ![NPM License](https://img.shields.io/npm/l/copylen)
+* [docsify-serve](https://www.npmjs.com/package/docsify-serve) ... Live Server のオプションを拡張した Docsify サーバー  
+![NPM Version](https://img.shields.io/npm/v/docsify-serve) ![NPM Downloads](https://img.shields.io/npm/dy/docsify-serve) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-serve) ![NPM License](https://img.shields.io/npm/l/docsify-serve)
+* [docsify-plugin-github-footer](https://www.npmjs.com/package/docsify-plugin-github-footer) ... Docsify で GitHub での編集リンクをフッターに追加するプラグイン  
+![NPM Version](https://img.shields.io/npm/v/docsify-plugin-github-footer) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/docsify-plugin-github-footer)
+ ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-github-footer) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-github-footer)
+* [docsify-plugin-page-history](https://www.npmjs.com/package/docsify-plugin-page-history) ... Docsify でページごとの変更履歴を残せるプラグイン  
+![NPM Version](https://img.shields.io/npm/v/docsify-plugin-page-history) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/docsify-plugin-page-history)
+ ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-page-history) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-page-history)
+* [docsify-plugin-ga](https://www.npmjs.com/package/docsify-plugin-ga) ... Docsify で GA4 を利用するプラグイン  
+![NPM Version](https://img.shields.io/npm/v/docsify-plugin-ga) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/docsify-plugin-ga) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-ga) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-ga)
+* [@lollipop-onl/vuex-typesafe-helper](https://www.npmjs.com/package/@lollipop-onl/vuex-typesafe-helper) ... Vuexストアを型安全にするヘルパーライブラリ  
+![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/vuex-typesafe-helper) ![NPM Downloads](https://img.shields.io/npm/dy/@lollipop-onl/vuex-typesafe-helper) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/vuex-typesafe-helper) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/vuex-typesafe-helper)
+* [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ  
+![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/vue-typed-reactive) ![NPM Downloads](https://img.shields.io/npm/dy/@lollipop-onl/vue-typed-reactive) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/vue-typed-reactive) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/vue-typed-reactive)
+* [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ  
+![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/axios-logger) ![NPM Downloads](https://img.shields.io/npm/dy/@lollipop-onl/axios-logger) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/axios-logger) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/axios-logger)
+
+### Browser Extensions
+
+* [Backlog Notification](https://github.com/lollipop-onl/webextensions-backlog-notification) ... Nulab Backlog のお知らせを通知する拡張機能 ([Chrome](https://chrome.google.com/webstore/detail/backlog-notification-exte/gmmfbpjchelnedibjoidghghnigggebn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-notification-extension/))  
+![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/gmmfbpjchelnedibjoidghghnigggebn) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/gmmfbpjchelnedibjoidghghnigggebn)
+![Mozilla Add-on Version](https://img.shields.io/amo/v/backlog-notification-extension) ![Mozilla Add-on Users](https://img.shields.io/amo/users/backlog-notification-extension)
+* [283 PiP](https://github.com/simochee/283-PiP) ... シャニマスを PiP で操作する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/283-pinp/gjpjhdmdbkiabejljimbnjdpmfdonpjb))  
+![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/gjpjhdmdbkiabejljimbnjdpmfdonpjb) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/gjpjhdmdbkiabejljimbnjdpmfdonpjb)
+* [X2B](https://github.com/simochee/X2B) ... X のシェアリンクを Bluesky にリダイレクトさせる拡張機能 ([Chrome](https://chromewebstore.google.com/detail/x2b/caofchgmaapaimkghakiclhlbefjjfbk)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/x2b/))  
+![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/caofchgmaapaimkghakiclhlbefjjfbk) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/caofchgmaapaimkghakiclhlbefjjfbk)
+![Mozilla Add-on Version](https://img.shields.io/amo/v/x2b) ![Mozilla Add-on Users](https://img.shields.io/amo/users/x2b)
 
 ### Websites
 
@@ -33,12 +54,6 @@
 * [宇部高専鉄道研究愛好会 - URRC](http://urrc.web.fc2.com/) ... 学生時代に作成した鉄道愛好会の公式サイト
 * 結婚式 Web招待状 (非公開) ... 自身の結婚式で Web 招待状を自作。併せて、回答の LINE 通知など周辺の機能も実装
 * 結婚式 Webアルバム（非公開） ... 自身の結婚式の写真を Web で閲覧できるサイトを自作。パスワードによる認証と署名付きURLによる画像参照で部外者からの閲覧を制限
-
-### Browser Extensions
-
-* [Backlog Notification](https://github.com/lollipop-onl/webextensions-backlog-notification) ... Nulab Backlog のお知らせを通知する拡張機能 ([Chrome](https://chrome.google.com/webstore/detail/backlog-notification-exte/gmmfbpjchelnedibjoidghghnigggebn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-notification-extension/))
-* [283 PiP](https://github.com/simochee/283-PiP) ... シャニマスを PiP で操作する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/283-pinp/gjpjhdmdbkiabejljimbnjdpmfdonpjb))
-* [X2B](https://github.com/simochee/X2B) ... X のシェアリンクを Bluesky にリダイレクトさせる拡張機能 ([Chrome](https://chromewebstore.google.com/detail/x2b/caofchgmaapaimkghakiclhlbefjjfbk)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/x2b/))
 
 ### Articles
 
