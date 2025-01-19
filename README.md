@@ -15,7 +15,7 @@
 
 ### npm Packages
 
-* [copylen](https://www.npmjs.com/package/docsify-shiki) ... Docsify のハイライターを Shiki に置き換えるプラグイン
+* [docsify-shiki](https://www.npmjs.com/package/docsify-shiki) ... Docsify のハイライターを Shiki に置き換えるプラグイン  
 ![NPM Version](https://img.shields.io/npm/v/docsify-shiki) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/docsify-shiki) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-shiki) ![NPM License](https://img.shields.io/npm/l/docsify-shiki)
 * [copylen](https://www.npmjs.com/package/copylen) ... 文字数ごとに分割してコピーする CLI  
 ![NPM Version](https://img.shields.io/npm/v/copylen) ![NPM Downloads](https://img.shields.io/npm/dy/copylen) ![NPM Last Update](https://img.shields.io/npm/last-update/copylen) ![NPM License](https://img.shields.io/npm/l/copylen)
