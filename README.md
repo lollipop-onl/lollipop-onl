@@ -16,28 +16,28 @@
 ### npm Packages
 
 * [copylen](https://www.npmjs.com/package/copylen) ... 文字数ごとに分割してコピーする CLI  
-![NPM Version](https://img.shields.io/npm/v/copylen) ![NPM Downloads](https://img.shields.io/npm/dy/copylen) ![NPM Last Update](https://img.shields.io/npm/last-update/copylen) ![NPM License](https://img.shields.io/npm/l/copylen)
+![NPM Version](https://img.shields.io/npm/v/copylen) ![NPM Downloads](https://img.shields.io/npm/dw/copylen) ![NPM Last Update](https://img.shields.io/npm/last-update/copylen) ![NPM License](https://img.shields.io/npm/l/copylen)
 * [docsify-serve](https://www.npmjs.com/package/docsify-serve) ... Live Server のオプションを拡張した Docsify サーバー  
-![NPM Version](https://img.shields.io/npm/v/docsify-serve) ![NPM Downloads](https://img.shields.io/npm/dy/docsify-serve) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-serve) ![NPM License](https://img.shields.io/npm/l/docsify-serve)
+![NPM Version](https://img.shields.io/npm/v/docsify-serve) ![NPM Downloads](https://img.shields.io/npm/dw/docsify-serve) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-serve) ![NPM License](https://img.shields.io/npm/l/docsify-serve)
 * [@lollipop-onl/vuex-typesafe-helper](https://www.npmjs.com/package/@lollipop-onl/vuex-typesafe-helper) ... Vuexストアを型安全にするヘルパーライブラリ  
-![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/vuex-typesafe-helper) ![NPM Downloads](https://img.shields.io/npm/dy/@lollipop-onl/vuex-typesafe-helper) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/vuex-typesafe-helper) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/vuex-typesafe-helper)
+![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/vuex-typesafe-helper) ![NPM Downloads](https://img.shields.io/npm/dw/@lollipop-onl/vuex-typesafe-helper) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/vuex-typesafe-helper) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/vuex-typesafe-helper)
 * [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ  
-![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/vue-typed-reactive) ![NPM Downloads](https://img.shields.io/npm/dy/@lollipop-onl/vue-typed-reactive) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/vue-typed-reactive) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/vue-typed-reactive)
+![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/vue-typed-reactive) ![NPM Downloads](https://img.shields.io/npm/dw/@lollipop-onl/vue-typed-reactive) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/vue-typed-reactive) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/vue-typed-reactive)
 * [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ  
-![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/axios-logger) ![NPM Downloads](https://img.shields.io/npm/dy/@lollipop-onl/axios-logger) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/axios-logger) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/axios-logger)
+![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/axios-logger) ![NPM Downloads](https://img.shields.io/npm/dw/@lollipop-onl/axios-logger) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/axios-logger) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/axios-logger)
 
 ### Docsify Plugins
 
 * [docsify-shiki](https://www.npmjs.com/package/docsify-shiki) ... Docsify のハイライターを Shiki に置き換えるプラグイン  
-![NPM Version](https://img.shields.io/npm/v/docsify-shiki) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/docsify-shiki) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-shiki) ![NPM License](https://img.shields.io/npm/l/docsify-shiki)
+![NPM Version](https://img.shields.io/npm/v/docsify-shiki) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-shiki) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-shiki) ![NPM License](https://img.shields.io/npm/l/docsify-shiki)
 * [docsify-plugin-github-footer](https://www.npmjs.com/package/docsify-plugin-github-footer) ... Docsify で GitHub での編集リンクをフッターに追加するプラグイン  
-![NPM Version](https://img.shields.io/npm/v/docsify-plugin-github-footer) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/docsify-plugin-github-footer)
+![NPM Version](https://img.shields.io/npm/v/docsify-plugin-github-footer) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-plugin-github-footer)
  ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-github-footer) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-github-footer)
 * [docsify-plugin-page-history](https://www.npmjs.com/package/docsify-plugin-page-history) ... Docsify でページごとの変更履歴を残せるプラグイン  
-![NPM Version](https://img.shields.io/npm/v/docsify-plugin-page-history) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/docsify-plugin-page-history)
+![NPM Version](https://img.shields.io/npm/v/docsify-plugin-page-history) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-plugin-page-history)
  ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-page-history) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-page-history)
 * [docsify-plugin-ga](https://www.npmjs.com/package/docsify-plugin-ga) ... Docsify で GA4 を利用するプラグイン  
-![NPM Version](https://img.shields.io/npm/v/docsify-plugin-ga) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/docsify-plugin-ga) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-ga) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-ga)
+![NPM Version](https://img.shields.io/npm/v/docsify-plugin-ga) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-plugin-ga) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-ga) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-ga)
 
 ### Browser Extensions
 
