@@ -52,6 +52,7 @@
 
 ### Websites
 
+* [Firefox Release Notes Feed](https://firefox-release-notes.simochee.net/) ... Firefox リリースノートの RSS フィード
 * [DirectoryTree Editor](https://tree.lollipop.onl/) ... ディレクトリ構成をインデントから作成するツール
 * [Scrapbox TimeMachine](https://scrapbox-timemachine.lollipop.onl/) ... ScrapboxのCommitログから過去の内容を復元するツール
 * [Passport MRZ Simulator](https://mrz.lollipop.onl) ... パスポートの MRZ 部分を生成するツール
