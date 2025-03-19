@@ -74,6 +74,14 @@
 * [PostCSS で先取りする、未来の CSS 7選 | Zenn](https://zenn.dev/lollipop_onl/articles/ac21-future-css-with-postcss)
 * [GitHub Actions で動的な環境変数を実現する | Zenn](https://zenn.dev/lollipop_onl/articles/gha-conditional-env)
 
+### Templates
+
+* [simochee/wxt-template](https://github.com/simochee/wxt-template)
+* [simochee/create-docsify-plugin](https://github.com/simochee/create-docsify-plugin)
+* [simochee/create-cli](https://github.com/simochee/create-cli)
+* [lollipop-onl/react-app](https://github.com/lollipop-onl/react-app)
+* [lollipop-onl/raycast-extention](https://github.com/lollipop-onl/raycast-extention)
+
 ### Books
 
 * [Stylish ESLint Rules こだわりのコードを実現する63のルール](https://booth.pm/ja/items/1827156)
