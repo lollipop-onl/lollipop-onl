@@ -2,9 +2,12 @@
 
 福岡でフロントエンドエンジニアをやっています。
 
-| Zenn | Qiita | X | GitHub | npm | しずかなインターネット |
-| --- | --- | --- | --- | --- | --- |
-| [@lollipop_onl](https://zenn.dev/lollipop_onl) | [@simochee](https://qiita.com/simochee) | [@lollipop_onl](https://x.com/lollipop_onl) | [@lollipop-onl](https://github.com/lollipop-onl)<br>[@simochee](https://github.com/simochee) | [@lollipop-onl](https://www.npmjs.com/~lollipop-onl) | [@simochee](https://sizu.me/simochee) |
+[![Zenn](https://img.shields.io/badge/%40lollipop__onl-3ea8ff?style=flat-square&logo=zenn&logoColor=white)](https://zenn.dev/lollipop_onl)
+[![Qiita](https://img.shields.io/badge/%40simochee-55c500?style=flat-square&logo=qiita&logoColor=white)](https://qiita.com/simochee)
+[![X](https://img.shields.io/badge/%40lollipop__onl-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/lollipop_onl)  
+[![GitHub user](https://img.shields.io/badge/%40lollipop--onl_(user)-0d1317?style=flat-square&logo=github&logoColor=white)](https://github.com/lollipop-onl)
+[![GitHub org](https://img.shields.io/badge/%40simochee_(org)-0d1317?style=flat-square&logo=github&logoColor=white)](https://github.com/simochee)
+[![npm](https://img.shields.io/badge/%40lollipop--onl-c53635?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~lollipop-onl)
 
 ### Biography
 
