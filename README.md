@@ -2,6 +2,8 @@
 
 福岡でフロントエンドエンジニアをやっています。
 
+### Follow me on
+
 [![Zenn](https://img.shields.io/badge/%40lollipop__onl-3ea8ff?style=flat-square&logo=zenn&logoColor=white)](https://zenn.dev/lollipop_onl)
 [![Qiita](https://img.shields.io/badge/%40simochee-55c500?style=flat-square&logo=qiita&logoColor=white)](https://qiita.com/simochee)
 [![X](https://img.shields.io/badge/%40lollipop__onl-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/lollipop_onl)  
