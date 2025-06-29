@@ -20,6 +20,10 @@
 
 ### npm Packages
 
+* [@passport-mrz/builder](https://www.npmjs.com/package/@passport-mrz/builder) ![NEW](assets/new.gif) ... パスポートの MRZ 文字列を生成するライブラリ  
+![NPM Version](https://img.shields.io/npm/v/@passport-mrz/builder) ![NPM Downloads](https://img.shields.io/npm/dw/@passport-mrz/builder) ![NPM Last Update](https://img.shields.io/npm/last-update/@passport-mrz/builder) ![NPM License](https://img.shields.io/npm/l/@passport-mrz/builder)
+* [@passport-mrz/renderer](https://www.npmjs.com/package/@passport-mrz/renderer) ![NEW](assets/new.gif) ... パスポートの MRZ 文字列を画像で生成するライブラリ  
+![NPM Version](https://img.shields.io/npm/v/@passport-mrz/renderer) ![NPM Downloads](https://img.shields.io/npm/dw/@passport-mrz/renderer) ![NPM Last Update](https://img.shields.io/npm/last-update/@passport-mrz/renderer) ![NPM License](https://img.shields.io/npm/l/@passport-mrz/renderer)
 * [copylen](https://www.npmjs.com/package/copylen) ... 文字数ごとに分割してコピーする CLI  
 ![NPM Version](https://img.shields.io/npm/v/copylen) ![NPM Downloads](https://img.shields.io/npm/dw/copylen) ![NPM Last Update](https://img.shields.io/npm/last-update/copylen) ![NPM License](https://img.shields.io/npm/l/copylen)
 * [docsify-serve](https://www.npmjs.com/package/docsify-serve) ... Live Server のオプションを拡張した Docsify サーバー  
@@ -57,10 +61,11 @@
 
 ### Websites
 
+* [MRZsim](https://passport-mrz.simochee.net) ![NEW](assets/new.gif) ... パスポートの MRZ 文字列を生成・共有・エクスポートするツール
 * [Firefox Release Notes Feed](https://firefox-release-notes.simochee.net/) ... Firefox リリースノートの RSS フィード
 * [DirectoryTree Editor](https://tree.lollipop.onl/) ... ディレクトリ構成をインデントから作成するツール
 * [Scrapbox TimeMachine](https://scrapbox-timemachine.lollipop.onl/) ... ScrapboxのCommitログから過去の内容を復元するツール
-* [Passport MRZ Simulator](https://mrz.lollipop.onl) ... パスポートの MRZ 部分を生成するツール
+* ~~[Passport MRZ Simulator](https://mrz.lollipop.onl) ... パスポートの MRZ 部分を生成するツール~~
 * [第53回 宇部高専高専祭ホームページ](http://nitucfes53.web.fc2.com/) ... 学生時代に作成した文化祭の公式サイト
 * [宇部高専鉄道研究愛好会 - URRC](http://urrc.web.fc2.com/) ... 学生時代に作成した鉄道愛好会の公式サイト
 * 結婚式 Web招待状 (非公開) ... 自身の結婚式で Web 招待状を自作。併せて、回答の LINE 通知など周辺の機能も実装
