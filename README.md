@@ -51,7 +51,7 @@
 
 ### Browser Extensions
 
-* [File Icons for Backlog Git](https://github.com/simochee/file-icons-for-backlog-git) ![NEW](assets/new.gif) ... Backlog の Git リポジトリにファイルアイコンを表示する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/aeejnngbcaakhmbcllihmpfijmgaecia)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/file-icons-for-backlog-git/))　　
+* [File Icons for Backlog Git](https://github.com/simochee/file-icons-for-backlog-git) ![NEW](assets/new.gif) ... Backlog の Git リポジトリにファイルアイコンを表示する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/aeejnngbcaakhmbcllihmpfijmgaecia)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/file-icons-for-backlog-git/))  
 ![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/aeejnngbcaakhmbcllihmpfijmgaecia) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/aeejnngbcaakhmbcllihmpfijmgaecia) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/aeejnngbcaakhmbcllihmpfijmgaecia)  
 ![Mozilla Add-on Version](https://img.shields.io/amo/v/file-icons-for-backlog-git) ![Mozilla Add-on Users](https://img.shields.io/amo/users/file-icons-for-backlog-git)
 * [Backlog Notification](https://github.com/lollipop-onl/webextensions-backlog-notification) ... Nulab Backlog のお知らせを通知する拡張機能 ([Chrome](https://chrome.google.com/webstore/detail/backlog-notification-exte/gmmfbpjchelnedibjoidghghnigggebn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-notification-extension/))  
