@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="488" viewBox="0 0 840 488">
+  <defs>
+    <linearGradient id="npm-header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cb3837" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="840" height="488" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Header -->
+  <rect x="0.5" y="0.5" width="839" height="56" rx="12" fill="url(#npm-header)"/>
+  <rect x="0.5" y="24" width="839" height="32" fill="url(#npm-header)"/>
+  <line x1="0" y1="56" x2="840" y2="56" stroke="#30363d" stroke-width="0.5"/>
+  <text x="24" y="36" fill="#e6edf3" font-size="16" font-weight="700" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">📦  npm Packages</text>
+
+  
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="840" height="52" rx="0" fill="#161b22" opacity="0.5"/>
+      <text x="24" y="22" fill="#58a6ff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">@lollipop-onl/myzod-to-zod</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">myzod → Zod v3 Codemod</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#3fb950" opacity="0.1"/>
+        <text x="65" y="16" fill="#3fb950" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">⬇ 0/week</text>
+      </g>
+    </g>
+    <g transform="translate(0, 108)">
+      
+      <text x="24" y="22" fill="#58a6ff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">@passport-mrz/builder</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">パスポート MRZ 文字列を生成</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#3fb950" opacity="0.1"/>
+        <text x="65" y="16" fill="#3fb950" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">⬇ 0/week</text>
+      </g>
+    </g>
+    <g transform="translate(0, 160)">
+      <rect x="0" y="0" width="840" height="52" rx="0" fill="#161b22" opacity="0.5"/>
+      <text x="24" y="22" fill="#58a6ff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">@passport-mrz/renderer</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">パスポート MRZ を画像で生成</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#3fb950" opacity="0.1"/>
+        <text x="65" y="16" fill="#3fb950" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">⬇ 0/week</text>
+      </g>
+    </g>
+    <g transform="translate(0, 212)">
+      
+      <text x="24" y="22" fill="#58a6ff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">copylen</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">文字数ごとに分割コピー CLI</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#3fb950" opacity="0.1"/>
+        <text x="65" y="16" fill="#3fb950" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">⬇ 0/week</text>
+      </g>
+    </g>
+    <g transform="translate(0, 264)">
+      <rect x="0" y="0" width="840" height="52" rx="0" fill="#161b22" opacity="0.5"/>
+      <text x="24" y="22" fill="#58a6ff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">docsify-serve</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">Docsify Live Server 拡張</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#3fb950" opacity="0.1"/>
+        <text x="65" y="16" fill="#3fb950" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">⬇ 0/week</text>
+      </g>
+    </g>
+    <g transform="translate(0, 316)">
+      
+      <text x="24" y="22" fill="#58a6ff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">@lollipop-onl/vuex-typesafe-helper</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">Vuex 型安全ヘルパー</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#3fb950" opacity="0.1"/>
+        <text x="65" y="16" fill="#3fb950" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">⬇ 0/week</text>
+      </g>
+    </g>
+    <g transform="translate(0, 368)">
+      <rect x="0" y="0" width="840" height="52" rx="0" fill="#161b22" opacity="0.5"/>
+      <text x="24" y="22" fill="#58a6ff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">@lollipop-onl/vue-typed-reactive</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">型安全 Vue.set/delete</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#3fb950" opacity="0.1"/>
+        <text x="65" y="16" fill="#3fb950" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">⬇ 0/week</text>
+      </g>
+    </g>
+    <g transform="translate(0, 420)">
+      
+      <text x="24" y="22" fill="#58a6ff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">@lollipop-onl/axios-logger</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">Axios 通信ログ表示</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#3fb950" opacity="0.1"/>
+        <text x="65" y="16" fill="#3fb950" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">⬇ 0/week</text>
+      </g>
+    </g>
+</svg>

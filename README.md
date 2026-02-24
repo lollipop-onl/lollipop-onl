@@ -6,67 +6,43 @@
 
 [![Zenn](https://img.shields.io/badge/%40lollipop__onl-3ea8ff?style=flat-square&logo=zenn&logoColor=white)](https://zenn.dev/lollipop_onl)
 [![Qiita](https://img.shields.io/badge/%40simochee-55c500?style=flat-square&logo=qiita&logoColor=white)](https://qiita.com/simochee)
-[![X](https://img.shields.io/badge/%40lollipop__onl-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/lollipop_onl)  
+[![X](https://img.shields.io/badge/%40lollipop__onl-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/lollipop_onl)
 [![GitHub user](https://img.shields.io/badge/%40lollipop--onl_(user)-0d1317?style=flat-square&logo=github&logoColor=white)](https://github.com/lollipop-onl)
 [![GitHub org](https://img.shields.io/badge/%40simochee_(org)-0d1317?style=flat-square&logo=github&logoColor=white)](https://github.com/simochee)
 [![npm](https://img.shields.io/badge/%40lollipop--onl-c53635?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~lollipop-onl)
 
 ### Biography
 
-:school: 2013/04 - 宇部工業高等専門学校 制御情報工学科 入学  
-🏢 2018/04 - チームラボ株式会社 入社  
+:school: 2013/04 - 宇部工業高等専門学校 制御情報工学科 入学
+🏢 2018/04 - チームラボ株式会社 入社
 🏢 2025/07 - 株式会社ヌーラボ 入社
 
 ## Works
 
 ### npm Packages
 
-* [@lollipop-onl/myzod-to-zod](https://www.npmjs.com/package/@lollipop-onl/myzod-to-zod) ... myzod を Zod v3 の Codemod  
-![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/myzod-to-zod) ![NPM Downloads](https://img.shields.io/npm/dw/@lollipop-onl/myzod-to-zod) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/myzod-to-zod) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/myzod-to-zod)
-* [@passport-mrz/builder](https://www.npmjs.com/package/@passport-mrz/builder) ... パスポートの MRZ 文字列を生成するライブラリ  
-![NPM Version](https://img.shields.io/npm/v/@passport-mrz/builder) ![NPM Downloads](https://img.shields.io/npm/dw/@passport-mrz/builder) ![NPM Last Update](https://img.shields.io/npm/last-update/@passport-mrz/builder) ![NPM License](https://img.shields.io/npm/l/@passport-mrz/builder)
-* [@passport-mrz/renderer](https://www.npmjs.com/package/@passport-mrz/renderer) ... パスポートの MRZ 文字列を画像で生成するライブラリ  
-![NPM Version](https://img.shields.io/npm/v/@passport-mrz/renderer) ![NPM Downloads](https://img.shields.io/npm/dw/@passport-mrz/renderer) ![NPM Last Update](https://img.shields.io/npm/last-update/@passport-mrz/renderer) ![NPM License](https://img.shields.io/npm/l/@passport-mrz/renderer)
-* [copylen](https://www.npmjs.com/package/copylen) ... 文字数ごとに分割してコピーする CLI  
-![NPM Version](https://img.shields.io/npm/v/copylen) ![NPM Downloads](https://img.shields.io/npm/dw/copylen) ![NPM Last Update](https://img.shields.io/npm/last-update/copylen) ![NPM License](https://img.shields.io/npm/l/copylen)
-* [docsify-serve](https://www.npmjs.com/package/docsify-serve) ... Live Server のオプションを拡張した Docsify サーバー  
-![NPM Version](https://img.shields.io/npm/v/docsify-serve) ![NPM Downloads](https://img.shields.io/npm/dw/docsify-serve) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-serve) ![NPM License](https://img.shields.io/npm/l/docsify-serve)
-* [@lollipop-onl/vuex-typesafe-helper](https://www.npmjs.com/package/@lollipop-onl/vuex-typesafe-helper) ... Vuexストアを型安全にするヘルパーライブラリ  
-![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/vuex-typesafe-helper) ![NPM Downloads](https://img.shields.io/npm/dw/@lollipop-onl/vuex-typesafe-helper) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/vuex-typesafe-helper) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/vuex-typesafe-helper)
-* [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ  
-![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/vue-typed-reactive) ![NPM Downloads](https://img.shields.io/npm/dw/@lollipop-onl/vue-typed-reactive) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/vue-typed-reactive) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/vue-typed-reactive)
-* [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ  
-![NPM Version](https://img.shields.io/npm/v/@lollipop-onl/axios-logger) ![NPM Downloads](https://img.shields.io/npm/dw/@lollipop-onl/axios-logger) ![NPM Last Update](https://img.shields.io/npm/last-update/@lollipop-onl/axios-logger) ![NPM License](https://img.shields.io/npm/l/@lollipop-onl/axios-logger)
+<!-- この SVG は GitHub Actions により毎日自動更新されます -->
+<a href="https://www.npmjs.com/~lollipop-onl"><img src="./assets/generated/npm-packages.svg" alt="npm Packages" width="840"></a>
 
 ### Docsify Plugins
 
-* [docsify-shiki](https://www.npmjs.com/package/docsify-shiki) ... Docsify のハイライターを Shiki に置き換えるプラグイン  
-![NPM Version](https://img.shields.io/npm/v/docsify-shiki) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-shiki) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-shiki) ![NPM License](https://img.shields.io/npm/l/docsify-shiki)
-* [docsify-plugin-github-footer](https://www.npmjs.com/package/docsify-plugin-github-footer) ... Docsify で GitHub での編集リンクをフッターに追加するプラグイン  
-![NPM Version](https://img.shields.io/npm/v/docsify-plugin-github-footer) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-plugin-github-footer)
- ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-github-footer) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-github-footer)
-* [docsify-plugin-page-history](https://www.npmjs.com/package/docsify-plugin-page-history) ... Docsify でページごとの変更履歴を残せるプラグイン  
-![NPM Version](https://img.shields.io/npm/v/docsify-plugin-page-history) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-plugin-page-history)
- ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-page-history) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-page-history)
-* [docsify-plugin-ga](https://www.npmjs.com/package/docsify-plugin-ga) ... Docsify で GA4 を利用するプラグイン  
-![NPM Version](https://img.shields.io/npm/v/docsify-plugin-ga) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-plugin-ga) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-ga) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-ga)
+<a href="https://www.npmjs.com/~lollipop-onl"><img src="./assets/generated/docsify-plugins.svg" alt="Docsify Plugins" width="840"></a>
 
 ### Browser Extensions
 
-* [Backlog Pull Request Plus](https://github.com/simochee/backlog-pull-request-plus) ![NEW](assets/new.gif) ... Backlog プルリクエストに機能を追加する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/backlog-pull-request-plus/cpafengiapnopbnidfckgambaieonckn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-pull-request-plus/))  
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/cpafengiapnopbnidfckgambaieonckn) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/cpafengiapnopbnidfckgambaieonckn) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/cpafengiapnopbnidfckgambaieonckn)  
-![Mozilla Add-on Version](https://img.shields.io/amo/v/backlog-pull-request-plus) ![Mozilla Add-on Users](https://img.shields.io/amo/users/backlog-pull-request-plus)
-* [File Icons for Backlog Git](https://github.com/simochee/file-icons-for-backlog-git) ![NEW](assets/new.gif) ... Backlog の Git リポジトリにファイルアイコンを表示する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/aeejnngbcaakhmbcllihmpfijmgaecia)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/file-icons-for-backlog-git/))  
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/aeejnngbcaakhmbcllihmpfijmgaecia) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/aeejnngbcaakhmbcllihmpfijmgaecia) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/aeejnngbcaakhmbcllihmpfijmgaecia)  
-![Mozilla Add-on Version](https://img.shields.io/amo/v/file-icons-for-backlog-git) ![Mozilla Add-on Users](https://img.shields.io/amo/users/file-icons-for-backlog-git)
-* [Backlog Notification](https://github.com/lollipop-onl/webextensions-backlog-notification) ... Nulab Backlog のお知らせを通知する拡張機能 ([Chrome](https://chrome.google.com/webstore/detail/backlog-notification-exte/gmmfbpjchelnedibjoidghghnigggebn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-notification-extension/))  
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/gmmfbpjchelnedibjoidghghnigggebn) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/gmmfbpjchelnedibjoidghghnigggebn) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/gmmfbpjchelnedibjoidghghnigggebn)  
-![Mozilla Add-on Version](https://img.shields.io/amo/v/backlog-notification-extension) ![Mozilla Add-on Users](https://img.shields.io/amo/users/backlog-notification-extension)
-* [283 PiP](https://github.com/simochee/283-PiP) ... シャニマスを PiP で操作する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/283-pinp/gjpjhdmdbkiabejljimbnjdpmfdonpjb))  
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/gjpjhdmdbkiabejljimbnjdpmfdonpjb) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/gjpjhdmdbkiabejljimbnjdpmfdonpjb) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/gjpjhdmdbkiabejljimbnjdpmfdonpjb)
-* [X2B](https://github.com/simochee/X2B) ... X のシェアリンクを Bluesky にリダイレクトさせる拡張機能 ([Chrome](https://chromewebstore.google.com/detail/x2b/caofchgmaapaimkghakiclhlbefjjfbk)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/x2b/))  
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/caofchgmaapaimkghakiclhlbefjjfbk) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/caofchgmaapaimkghakiclhlbefjjfbk) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/caofchgmaapaimkghakiclhlbefjjfbk)  
-![Mozilla Add-on Version](https://img.shields.io/amo/v/x2b) ![Mozilla Add-on Users](https://img.shields.io/amo/users/x2b)
+<img src="./assets/generated/browser-extensions.svg" alt="Browser Extensions" width="840">
+
+<details><summary>拡張機能のリンク一覧</summary>
+
+| Extension | Chrome | Firefox |
+| --- | --- | --- |
+| Backlog Pull Request Plus | [Chrome](https://chromewebstore.google.com/detail/backlog-pull-request-plus/cpafengiapnopbnidfckgambaieonckn) | [Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-pull-request-plus/) |
+| File Icons for Backlog Git | [Chrome](https://chromewebstore.google.com/detail/aeejnngbcaakhmbcllihmpfijmgaecia) | [Firefox](https://addons.mozilla.org/ja/firefox/addon/file-icons-for-backlog-git/) |
+| Backlog Notification | [Chrome](https://chrome.google.com/webstore/detail/backlog-notification-exte/gmmfbpjchelnedibjoidghghnigggebn) | [Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-notification-extension/) |
+| 283 PiP | [Chrome](https://chromewebstore.google.com/detail/283-pinp/gjpjhdmdbkiabejljimbnjdpmfdonpjb) | - |
+| X2B | [Chrome](https://chromewebstore.google.com/detail/x2b/caofchgmaapaimkghakiclhlbefjjfbk) | [Firefox](https://addons.mozilla.org/ja/firefox/addon/x2b/) |
+
+</details>
 
 ### Websites
 

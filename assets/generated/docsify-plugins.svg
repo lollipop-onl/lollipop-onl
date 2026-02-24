@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="280" viewBox="0 0 840 280">
+  <defs>
+    <linearGradient id="doc-header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="840" height="280" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <rect x="0.5" y="0.5" width="839" height="56" rx="12" fill="url(#doc-header)"/>
+  <rect x="0.5" y="24" width="839" height="32" fill="url(#doc-header)"/>
+  <line x1="0" y1="56" x2="840" y2="56" stroke="#30363d" stroke-width="0.5"/>
+  <text x="24" y="36" fill="#e6edf3" font-size="16" font-weight="700" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">🔌  Docsify Plugins</text>
+
+  
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="840" height="52" rx="0" fill="#161b22" opacity="0.5"/>
+      <text x="24" y="22" fill="#bc8cff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">docsify-shiki</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">Shiki ハイライター</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#d29922" opacity="0.1"/>
+        <text x="65" y="16" fill="#d29922" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">cdn ?</text>
+      </g>
+    </g>
+    <g transform="translate(0, 108)">
+      
+      <text x="24" y="22" fill="#bc8cff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">docsify-plugin-github-footer</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">GitHub 編集リンクフッター</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#d29922" opacity="0.1"/>
+        <text x="65" y="16" fill="#d29922" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">cdn ?</text>
+      </g>
+    </g>
+    <g transform="translate(0, 160)">
+      <rect x="0" y="0" width="840" height="52" rx="0" fill="#161b22" opacity="0.5"/>
+      <text x="24" y="22" fill="#bc8cff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">docsify-plugin-page-history</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">ページ変更履歴</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#d29922" opacity="0.1"/>
+        <text x="65" y="16" fill="#d29922" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">cdn ?</text>
+      </g>
+    </g>
+    <g transform="translate(0, 212)">
+      
+      <text x="24" y="22" fill="#bc8cff" font-size="13" font-weight="600" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">docsify-plugin-ga</text>
+      <text x="24" y="40" fill="#8b949e" font-size="11" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">GA4 プラグイン</text>
+      <g transform="translate(600, 10)">
+        <rect x="0" y="0" width="72" height="24" rx="12" fill="#cb3837" opacity="0.15"/>
+        <text x="36" y="16" fill="#cb3837" font-size="11" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">v?</text>
+      </g>
+      <g transform="translate(686, 10)">
+        <rect x="0" y="0" width="130" height="24" rx="12" fill="#d29922" opacity="0.1"/>
+        <text x="65" y="16" fill="#d29922" font-size="11" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">cdn ?</text>
+      </g>
+    </g>
+</svg>
