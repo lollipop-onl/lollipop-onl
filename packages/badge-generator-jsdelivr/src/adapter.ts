@@ -9,7 +9,7 @@ export function jsdelivrToBadgeData(info: JsDelivrPackageInfo): BadgeData {
     logoSvg: JSDELIVR_LOGO_SVG,
     fields: [
       { label: "version", value: info.version },
-      { label: "hits", value: `${info.weeklyHits}/week` },
+      { label: "hits", value: `${info.monthlyHits}/month` },
       { label: "updated", value: info.lastUpdate },
       { label: "license", value: info.license },
     ],

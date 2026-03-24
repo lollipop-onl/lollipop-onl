@@ -8,7 +8,7 @@ describe("fetchJsDelivrPackageInfo", () => {
     expect(info!.name).toBe("docsify-shiki");
     expect(info!.description).toBeString();
     expect(info!.version).toMatch(/^\d+\.\d+\.\d+/);
-    expect(info!.weeklyHits).toBeNumber();
+    expect(info!.monthlyHits).toBeNumber();
   });
 
   it("returns null for non-existent packages", async () => {

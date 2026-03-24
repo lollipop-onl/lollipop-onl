@@ -4,7 +4,7 @@ export interface JsDelivrPackageInfo {
   version: string;
   license: string;
   lastUpdate: string;
-  weeklyHits: number;
+  monthlyHits: number;
 }
 
 export async function fetchJsDelivrPackageInfo(
@@ -30,15 +30,15 @@ export async function fetchJsDelivrPackageInfo(
   const license = registry.license ?? registry.versions?.[latestVersion]?.license ?? "unknown";
   const lastUpdate = registry.time?.modified ?? "unknown";
 
-  // Fetch jsDelivr weekly hits
+  // Fetch jsDelivr monthly hits
   const statsRes = await fetch(
-    `https://data.jsdelivr.com/v1/packages/npm/${packageName}/stats/date/week`,
+    `https://data.jsdelivr.com/v1/packages/npm/${packageName}/stats/date/month`,
   );
 
-  let weeklyHits = 0;
+  let monthlyHits = 0;
   if (statsRes.ok) {
     const statsData = await statsRes.json();
-    weeklyHits = statsData.total ?? 0;
+    monthlyHits = statsData.total ?? 0;
   }
 
   return {
@@ -47,6 +47,6 @@ export async function fetchJsDelivrPackageInfo(
     version: latestVersion,
     license: typeof license === "object" ? license.type ?? "unknown" : license,
     lastUpdate: lastUpdate.split("T")[0],
-    weeklyHits,
+    monthlyHits,
   };
 }

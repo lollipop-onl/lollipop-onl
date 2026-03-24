@@ -10,14 +10,14 @@ describe("jsdelivrToBadgeData", () => {
       version: "2.0.0",
       license: "MIT",
       lastUpdate: "2024-06-01",
-      weeklyHits: 5000,
+      monthlyHits: 5000,
     };
     const badge = jsdelivrToBadgeData(info);
     expect(badge.name).toBe("docsify-shiki");
     expect(badge.logoSvg).toContain("<svg");
     expect(badge.fields).toEqual([
       { label: "version", value: "2.0.0" },
-      { label: "hits", value: "5000/week" },
+      { label: "hits", value: "5000/month" },
       { label: "updated", value: "2024-06-01" },
       { label: "license", value: "MIT" },
     ]);
