@@ -244,6 +244,17 @@ export async function renderBadge(
                             height: 14,
                           },
                         },
+                        ...(field.label !== "license"
+                          ? [
+                              {
+                                type: "span",
+                                props: {
+                                  style: { color: colors.secondary },
+                                  children: field.label,
+                                },
+                              },
+                            ]
+                          : []),
                       ]
                     : [
                         {
