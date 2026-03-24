@@ -38,6 +38,36 @@ export async function renderBadge(
   const fonts = await getFonts();
   const colors = themeColors[theme];
 
+  const headerChildren: any[] = [
+    {
+      type: "img",
+      props: {
+        src: `data:image/svg+xml,${encodeURIComponent(data.logoSvg)}`,
+        width: 28,
+        height: 28,
+        style: { borderRadius: "4px", objectFit: "contain" },
+      },
+    },
+    {
+      type: "span",
+      props: {
+        style: { fontWeight: 700, fontSize: "16px" },
+        children: data.name,
+      },
+    },
+  ];
+
+  if (data.inlineLogoSvg) {
+    headerChildren.push({
+      type: "img",
+      props: {
+        src: `data:image/svg+xml,${encodeURIComponent(data.inlineLogoSvg)}`,
+        width: 60,
+        height: 16,
+      },
+    });
+  }
+
   const element = {
     type: "div",
     props: {
@@ -63,36 +93,7 @@ export async function renderBadge(
               alignItems: "center",
               gap: "12px",
             },
-            children: [
-              {
-                type: "img",
-                props: {
-                  src: `data:image/svg+xml,${encodeURIComponent(data.logoSvg)}`,
-                  width: 28,
-                  height: 28,
-                  style: { borderRadius: "4px", objectFit: "contain" as const },
-                },
-              },
-              {
-                type: "span",
-                props: {
-                  style: { fontWeight: 700, fontSize: "16px" },
-                  children: data.name,
-                },
-              },
-              ...(data.inlineLogoSvg
-                ? [
-                    {
-                      type: "img",
-                      props: {
-                        src: `data:image/svg+xml,${encodeURIComponent(data.inlineLogoSvg)}`,
-                        height: 16,
-                        style: { width: "auto" },
-                      },
-                    },
-                  ]
-                : []),
-            ],
+            children: headerChildren,
           },
         },
         // Description

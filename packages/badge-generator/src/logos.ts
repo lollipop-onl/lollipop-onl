@@ -8,5 +8,5 @@ function loadSvg(filename: string): string {
 }
 
 export const LOGOS: Record<string, string> = {
-  docsify: loadSvg("docsify.svg"),
+  docsify: loadSvg("docsify-simple.svg"),
 };
