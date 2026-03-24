@@ -30,14 +30,46 @@
 * [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ
 * [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ
 
-<img src="./assets/badges/lollipop-onl-myzod-to-zod.svg" alt="@lollipop-onl/myzod-to-zod" width="800">
-<img src="./assets/badges/passport-mrz-builder.svg" alt="@passport-mrz/builder" width="800">
-<img src="./assets/badges/passport-mrz-renderer.svg" alt="@passport-mrz/renderer" width="800">
-<img src="./assets/badges/copylen.svg" alt="copylen" width="800">
-<img src="./assets/badges/docsify-serve.svg" alt="docsify-serve" width="800">
-<img src="./assets/badges/lollipop-onl-vuex-typesafe-helper.svg" alt="@lollipop-onl/vuex-typesafe-helper" width="800">
-<img src="./assets/badges/lollipop-onl-vue-typed-reactive.svg" alt="@lollipop-onl/vue-typed-reactive" width="800">
-<img src="./assets/badges/lollipop-onl-axios-logger.svg" alt="@lollipop-onl/axios-logger" width="800">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/lollipop-onl-myzod-to-zod@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/lollipop-onl-myzod-to-zod@light.svg">
+  <img alt="@lollipop-onl/myzod-to-zod" src="./assets/badges/lollipop-onl-myzod-to-zod@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/passport-mrz-builder@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/passport-mrz-builder@light.svg">
+  <img alt="@passport-mrz/builder" src="./assets/badges/passport-mrz-builder@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/passport-mrz-renderer@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/passport-mrz-renderer@light.svg">
+  <img alt="@passport-mrz/renderer" src="./assets/badges/passport-mrz-renderer@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/copylen@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/copylen@light.svg">
+  <img alt="copylen" src="./assets/badges/copylen@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/docsify-serve@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/docsify-serve@light.svg">
+  <img alt="docsify-serve" src="./assets/badges/docsify-serve@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/lollipop-onl-vuex-typesafe-helper@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/lollipop-onl-vuex-typesafe-helper@light.svg">
+  <img alt="@lollipop-onl/vuex-typesafe-helper" src="./assets/badges/lollipop-onl-vuex-typesafe-helper@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/lollipop-onl-vue-typed-reactive@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/lollipop-onl-vue-typed-reactive@light.svg">
+  <img alt="@lollipop-onl/vue-typed-reactive" src="./assets/badges/lollipop-onl-vue-typed-reactive@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/lollipop-onl-axios-logger@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/lollipop-onl-axios-logger@light.svg">
+  <img alt="@lollipop-onl/axios-logger" src="./assets/badges/lollipop-onl-axios-logger@dark.svg" width="800">
+</picture>
 
 ### Docsify Plugins
 

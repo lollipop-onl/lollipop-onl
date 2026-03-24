@@ -1,3 +1,5 @@
+export type BadgeTheme = "dark" | "light";
+
 export interface BadgeField {
   label: string;
   value: string;

@@ -1,7 +1,12 @@
+import type { BadgeTheme } from "@lollipop-onl/badge-generator";
 import type { BadgeBlock } from "./parse.js";
 
-export function toSvgFilename(packageName: string): string {
-  return packageName.replace(/^@/, "").replace(/\//g, "-") + ".svg";
+export function toSvgFilename(packageName: string, theme?: BadgeTheme): string {
+  const base = packageName.replace(/^@/, "").replace(/\//g, "-");
+  if (theme) {
+    return `${base}@${theme}.svg`;
+  }
+  return `${base}.svg`;
 }
 
 export function replaceBlocks(
@@ -11,14 +16,19 @@ export function replaceBlocks(
   let result = template;
 
   for (const block of blocks) {
-    const imgTags = block.packages
+    const pictures = block.packages
       .map((pkg) => {
-        const filename = toSvgFilename(pkg);
-        return `<img src="./assets/badges/${filename}" alt="${pkg}" width="800">`;
+        const darkFile = toSvgFilename(pkg, "dark");
+        const lightFile = toSvgFilename(pkg, "light");
+        return `<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/${darkFile}">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/${lightFile}">
+  <img alt="${pkg}" src="./assets/badges/${darkFile}" width="800">
+</picture>`;
       })
       .join("\n");
 
-    result = result.replace(block.raw, imgTags);
+    result = result.replace(block.raw, pictures);
   }
 
   return result;

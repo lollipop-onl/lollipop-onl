@@ -27,4 +27,17 @@ describe("renderBadge", () => {
     // SVG should contain path data (rendered text glyphs)
     expect(svg).toContain("<path");
   });
+
+  it("renders light theme with light colors", async () => {
+    const data: BadgeData = {
+      name: "test-package",
+      description: "A test package",
+      logoSvg:
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" fill="red"/></svg>',
+      fields: [{ label: "version", value: "1.0.0" }],
+    };
+    const svg = await renderBadge(data, "light");
+    expect(svg).toStartWith("<svg");
+    expect(svg).toContain('width="800"');
+  });
 });

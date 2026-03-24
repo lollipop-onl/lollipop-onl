@@ -3,19 +3,29 @@ import { replaceBlocks, toSvgFilename } from "../src/build.js";
 import type { BadgeBlock } from "../src/parse.js";
 
 describe("toSvgFilename", () => {
-  it("converts a simple package name", () => {
+  it("converts a simple package name without theme", () => {
     expect(toSvgFilename("copylen")).toBe("copylen.svg");
   });
 
-  it("converts a scoped package name", () => {
+  it("converts a scoped package name without theme", () => {
     expect(toSvgFilename("@lollipop-onl/myzod-to-zod")).toBe(
       "lollipop-onl-myzod-to-zod.svg",
+    );
+  });
+
+  it("appends @dark suffix", () => {
+    expect(toSvgFilename("copylen", "dark")).toBe("copylen@dark.svg");
+  });
+
+  it("appends @light suffix for scoped package", () => {
+    expect(toSvgFilename("@lollipop-onl/myzod-to-zod", "light")).toBe(
+      "lollipop-onl-myzod-to-zod@light.svg",
     );
   });
 });
 
 describe("replaceBlocks", () => {
-  it("replaces badge blocks with img tags", () => {
+  it("replaces badge blocks with picture elements", () => {
     const template = `# Hello
 
 \`\`\`badges:npm
@@ -33,12 +43,21 @@ Footer.`;
 
     const result = replaceBlocks(template, [block]);
 
+    expect(result).toContain("<picture>");
+    expect(result).toContain('media="(prefers-color-scheme: dark)"');
     expect(result).toContain(
-      '<img src="./assets/badges/lollipop-onl-myzod-to-zod.svg" alt="@lollipop-onl/myzod-to-zod" width="800">',
+      'srcset="./assets/badges/lollipop-onl-myzod-to-zod@dark.svg"',
     );
     expect(result).toContain(
-      '<img src="./assets/badges/copylen.svg" alt="copylen" width="800">',
+      'srcset="./assets/badges/lollipop-onl-myzod-to-zod@light.svg"',
     );
+    expect(result).toContain(
+      'srcset="./assets/badges/copylen@dark.svg"',
+    );
+    expect(result).toContain(
+      'srcset="./assets/badges/copylen@light.svg"',
+    );
+    expect(result).toContain('alt="@lollipop-onl/myzod-to-zod"');
     expect(result).toContain("# Hello");
     expect(result).toContain("Footer.");
     expect(result).not.toContain("```badges:npm");

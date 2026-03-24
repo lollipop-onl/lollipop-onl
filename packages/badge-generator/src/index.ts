@@ -1,2 +1,2 @@
-export { type BadgeData, type BadgeField } from "./types.js";
+export { type BadgeData, type BadgeField, type BadgeTheme } from "./types.js";
 export { renderBadge } from "./renderer.js";

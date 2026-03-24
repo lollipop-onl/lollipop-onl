@@ -31,10 +31,13 @@ async function main() {
       if (!info) continue;
 
       const badgeData = npmToBadgeData(info);
-      const svg = await renderBadge(badgeData);
-      const filename = toSvgFilename(pkg);
-      writeFileSync(join(BADGES_DIR, filename), svg);
-      console.log(`Generated: ${filename}`);
+
+      for (const theme of ["dark", "light"] as const) {
+        const svg = await renderBadge(badgeData, theme);
+        const filename = toSvgFilename(pkg, theme);
+        writeFileSync(join(BADGES_DIR, filename), svg);
+        console.log(`Generated: ${filename}`);
+      }
     }
   }
 

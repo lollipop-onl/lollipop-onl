@@ -1,7 +1,7 @@
 // packages/badge-generator/src/renderer.ts
 import satori from "satori";
 import { loadFonts } from "./font.js";
-import type { BadgeData } from "./types.js";
+import type { BadgeData, BadgeTheme } from "./types.js";
 
 let fontsCache: Awaited<ReturnType<typeof loadFonts>> | null = null;
 
@@ -12,8 +12,31 @@ async function getFonts() {
   return fontsCache;
 }
 
-export async function renderBadge(data: BadgeData): Promise<string> {
+const themeColors = {
+  dark: {
+    bg: "#0d1117",
+    border: "#30363d",
+    text: "#e6edf3",
+    secondary: "#8b949e",
+    fieldBg: "#161b22",
+    fieldBorder: "#30363d",
+  },
+  light: {
+    bg: "#ffffff",
+    border: "#d1d9e0",
+    text: "#1f2328",
+    secondary: "#656d76",
+    fieldBg: "#f6f8fa",
+    fieldBorder: "#d1d9e0",
+  },
+} as const;
+
+export async function renderBadge(
+  data: BadgeData,
+  theme: BadgeTheme = "dark",
+): Promise<string> {
   const fonts = await getFonts();
+  const colors = themeColors[theme];
 
   const element = {
     type: "div",
@@ -23,10 +46,10 @@ export async function renderBadge(data: BadgeData): Promise<string> {
         flexDirection: "column",
         width: "100%",
         padding: "16px 20px",
-        backgroundColor: "#0d1117",
+        backgroundColor: colors.bg,
         borderRadius: "8px",
-        border: "1px solid #30363d",
-        color: "#e6edf3",
+        border: `1px solid ${colors.border}`,
+        color: colors.text,
         fontFamily: "Noto Sans JP",
         fontSize: "14px",
       },
@@ -67,7 +90,7 @@ export async function renderBadge(data: BadgeData): Promise<string> {
             style: {
               marginTop: "4px",
               marginLeft: "40px",
-              color: "#8b949e",
+              color: colors.secondary,
               fontSize: "13px",
             },
             children: data.description,
@@ -92,22 +115,22 @@ export async function renderBadge(data: BadgeData): Promise<string> {
                   alignItems: "center",
                   gap: "4px",
                   padding: "2px 8px",
-                  backgroundColor: "#161b22",
+                  backgroundColor: colors.fieldBg,
                   borderRadius: "12px",
-                  border: "1px solid #30363d",
+                  border: `1px solid ${colors.fieldBorder}`,
                 },
                 children: [
                   {
                     type: "span",
                     props: {
-                      style: { color: "#8b949e" },
+                      style: { color: colors.secondary },
                       children: field.label,
                     },
                   },
                   {
                     type: "span",
                     props: {
-                      style: { color: "#e6edf3", fontWeight: 700 },
+                      style: { color: colors.text, fontWeight: 700 },
                       children: field.value,
                     },
                   },
