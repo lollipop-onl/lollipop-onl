@@ -1,0 +1,13 @@
+{
+  "name": "@lollipop-onl/readme-generator",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@lollipop-onl/badge-generator": "workspace:*",
+    "@lollipop-onl/badge-generator-npm": "workspace:*"
+  }
+}

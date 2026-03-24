@@ -1,0 +1,8 @@
+{
+  "name": "lollipop-onl",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "generate": "bun run packages/readme-generator/src/cli.ts"
+  }
+}
