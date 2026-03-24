@@ -30,46 +30,62 @@
 * [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ
 * [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-myzod-to-zod@light.svg">
-  <img alt="@lollipop-onl/myzod-to-zod" src="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/passport-mrz-builder@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/passport-mrz-builder@light.svg">
-  <img alt="@passport-mrz/builder" src="./assets/badges/npm/passport-mrz-builder@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/passport-mrz-renderer@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/passport-mrz-renderer@light.svg">
-  <img alt="@passport-mrz/renderer" src="./assets/badges/npm/passport-mrz-renderer@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/copylen@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/copylen@light.svg">
-  <img alt="copylen" src="./assets/badges/npm/copylen@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/docsify-serve@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/docsify-serve@light.svg">
-  <img alt="docsify-serve" src="./assets/badges/npm/docsify-serve@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@light.svg">
-  <img alt="@lollipop-onl/vuex-typesafe-helper" src="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-vue-typed-reactive@light.svg">
-  <img alt="@lollipop-onl/vue-typed-reactive" src="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@light.svg">
-  <img alt="@lollipop-onl/axios-logger" src="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg" width="800">
-</picture>
+<a href="https://www.npmjs.com/package/@lollipop-onl/myzod-to-zod">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-myzod-to-zod@light.svg">
+    <img alt="@lollipop-onl/myzod-to-zod" src="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.npmjs.com/package/@passport-mrz/builder">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/passport-mrz-builder@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/passport-mrz-builder@light.svg">
+    <img alt="@passport-mrz/builder" src="./assets/badges/npm/passport-mrz-builder@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.npmjs.com/package/@passport-mrz/renderer">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/passport-mrz-renderer@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/passport-mrz-renderer@light.svg">
+    <img alt="@passport-mrz/renderer" src="./assets/badges/npm/passport-mrz-renderer@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.npmjs.com/package/copylen">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/copylen@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/copylen@light.svg">
+    <img alt="copylen" src="./assets/badges/npm/copylen@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.npmjs.com/package/docsify-serve">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/docsify-serve@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/docsify-serve@light.svg">
+    <img alt="docsify-serve" src="./assets/badges/npm/docsify-serve@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.npmjs.com/package/@lollipop-onl/vuex-typesafe-helper">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@light.svg">
+    <img alt="@lollipop-onl/vuex-typesafe-helper" src="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-vue-typed-reactive@light.svg">
+    <img alt="@lollipop-onl/vue-typed-reactive" src="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.npmjs.com/package/@lollipop-onl/axios-logger">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@light.svg">
+    <img alt="@lollipop-onl/axios-logger" src="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg" width="800">
+  </picture>
+</a>
 
 ### Docsify Plugins
 
@@ -78,26 +94,34 @@
 * [docsify-plugin-page-history](https://www.npmjs.com/package/docsify-plugin-page-history) ... Docsify でページごとの変更履歴を残せるプラグイン
 * [docsify-plugin-ga](https://www.npmjs.com/package/docsify-plugin-ga) ... Docsify で GA4 を利用するプラグイン
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-shiki@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-shiki@light.svg">
-  <img alt="docsify-shiki" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@light.svg">
-  <img alt="docsify-plugin-github-footer" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@light.svg">
-  <img alt="docsify-plugin-page-history" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@light.svg">
-  <img alt="docsify-plugin-ga" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
-</picture>
+<a href="https://www.jsdelivr.com/package/npm/docsify-shiki">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-shiki@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-shiki@light.svg">
+    <img alt="docsify-shiki" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.jsdelivr.com/package/npm/docsify-plugin-github-footer">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@light.svg">
+    <img alt="docsify-plugin-github-footer" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.jsdelivr.com/package/npm/docsify-plugin-page-history">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@light.svg">
+    <img alt="docsify-plugin-page-history" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
+  </picture>
+</a>
+<a href="https://www.jsdelivr.com/package/npm/docsify-plugin-ga">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@light.svg">
+    <img alt="docsify-plugin-ga" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
+  </picture>
+</a>
 
 ### Browser Extensions
 

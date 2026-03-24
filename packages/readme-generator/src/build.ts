@@ -9,6 +9,11 @@ export function toSvgFilename(packageName: string, theme?: BadgeTheme): string {
   return `${base}.svg`;
 }
 
+const PLATFORM_URLS: Record<string, (pkg: string) => string> = {
+  npm: (pkg) => `https://www.npmjs.com/package/${pkg}`,
+  jsdelivr: (pkg) => `https://www.jsdelivr.com/package/npm/${pkg}`,
+};
+
 export function replaceBlocks(
   template: string,
   blocks: BadgeBlock[],
@@ -20,11 +25,14 @@ export function replaceBlocks(
       .map((pkg) => {
         const darkFile = toSvgFilename(pkg, "dark");
         const lightFile = toSvgFilename(pkg, "light");
-        return `<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/${block.platform}/${darkFile}">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/${block.platform}/${lightFile}">
-  <img alt="${pkg}" src="./assets/badges/${block.platform}/${darkFile}" width="800">
-</picture>`;
+        const url = PLATFORM_URLS[block.platform]?.(pkg) ?? "#";
+        return `<a href="${url}">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/${block.platform}/${darkFile}">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/badges/${block.platform}/${lightFile}">
+    <img alt="${pkg}" src="./assets/badges/${block.platform}/${darkFile}" width="800">
+  </picture>
+</a>`;
       })
       .join("\n");
 

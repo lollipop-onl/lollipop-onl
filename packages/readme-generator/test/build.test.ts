@@ -43,6 +43,8 @@ Footer.`;
 
     const result = replaceBlocks(template, [block]);
 
+    expect(result).toContain('<a href="https://www.npmjs.com/package/@lollipop-onl/myzod-to-zod">');
+    expect(result).toContain('<a href="https://www.npmjs.com/package/copylen">');
     expect(result).toContain("<picture>");
     expect(result).toContain('media="(prefers-color-scheme: dark)"');
     expect(result).toContain(
