@@ -21,15 +21,6 @@
 
 ### npm Packages
 
-* [@lollipop-onl/myzod-to-zod](https://www.npmjs.com/package/@lollipop-onl/myzod-to-zod) ... myzod を Zod v3 の Codemod
-* [@passport-mrz/builder](https://www.npmjs.com/package/@passport-mrz/builder) ... パスポートの MRZ 文字列を生成するライブラリ
-* [@passport-mrz/renderer](https://www.npmjs.com/package/@passport-mrz/renderer) ... パスポートの MRZ 文字列を画像で生成するライブラリ
-* [copylen](https://www.npmjs.com/package/copylen) ... 文字数ごとに分割してコピーする CLI
-* [docsify-serve](https://www.npmjs.com/package/docsify-serve) ... Live Server のオプションを拡張した Docsify サーバー
-* [@lollipop-onl/vuex-typesafe-helper](https://www.npmjs.com/package/@lollipop-onl/vuex-typesafe-helper) ... Vuexストアを型安全にするヘルパーライブラリ
-* [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ
-* [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ
-
 ```badges:npm
 @lollipop-onl/myzod-to-zod
 @passport-mrz/builder
@@ -42,11 +33,6 @@ docsify-serve
 ```
 
 ### Docsify Plugins
-
-* [docsify-shiki](https://www.npmjs.com/package/docsify-shiki) ... Docsify のハイライターを Shiki に置き換えるプラグイン
-* [docsify-plugin-github-footer](https://www.npmjs.com/package/docsify-plugin-github-footer) ... Docsify で GitHub での編集リンクをフッターに追加するプラグイン
-* [docsify-plugin-page-history](https://www.npmjs.com/package/docsify-plugin-page-history) ... Docsify でページごとの変更履歴を残せるプラグイン
-* [docsify-plugin-ga](https://www.npmjs.com/package/docsify-plugin-ga) ... Docsify で GA4 を利用するプラグイン
 
 ```badges:jsdelivr logo=docsify
 docsify-shiki
