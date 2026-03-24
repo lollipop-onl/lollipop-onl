@@ -197,6 +197,7 @@ export async function renderBadge(
         flexDirection: "column",
         position: "relative" as const,
         width: "100%",
+        height: "100%",
         padding: "16px 20px",
         backgroundColor: colors.bg,
         borderRadius: "8px",
