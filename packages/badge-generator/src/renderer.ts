@@ -250,6 +250,7 @@ export async function renderBadge(
               const fc = field.color;
               const fieldBg = fc ? mixColor(fc, colors.bg, 0.12) : colors.fieldBg;
               const fieldBorder = fc ? mixColor(fc, colors.bg, 0.35) : colors.fieldBorder;
+              const labelColor = fc ? mixColor(fc, colors.secondary, 0.5) : colors.secondary;
               return {
               type: "div",
               props: {
@@ -278,7 +279,7 @@ export async function renderBadge(
                               {
                                 type: "span",
                                 props: {
-                                  style: { color: colors.secondary },
+                                  style: { color: labelColor },
                                   children: field.label,
                                 },
                               },
@@ -289,7 +290,7 @@ export async function renderBadge(
                         {
                           type: "span",
                           props: {
-                            style: { color: colors.secondary },
+                            style: { color: labelColor },
                             children: field.label,
                           },
                         },
