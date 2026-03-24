@@ -48,7 +48,7 @@ docsify-serve
 * [docsify-plugin-page-history](https://www.npmjs.com/package/docsify-plugin-page-history) ... Docsify でページごとの変更履歴を残せるプラグイン
 * [docsify-plugin-ga](https://www.npmjs.com/package/docsify-plugin-ga) ... Docsify で GA4 を利用するプラグイン
 
-```badges:jsdelivr
+```badges:jsdelivr logo=docsify
 docsify-shiki
 docsify-plugin-github-footer
 docsify-plugin-page-history

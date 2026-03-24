@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { renderBadge } from "@lollipop-onl/badge-generator";
+import { renderBadge, LOGOS } from "@lollipop-onl/badge-generator";
 import {
   fetchNpmPackageInfo,
   npmToBadgeData,
@@ -40,6 +40,10 @@ async function main() {
       } else {
         console.warn(`[WARN] Unknown platform: ${block.platform}, skipping`);
         continue;
+      }
+
+      if (block.options.logo && LOGOS[block.options.logo]) {
+        badgeData = { ...badgeData, logoSvg: LOGOS[block.options.logo] };
       }
 
       for (const theme of ["dark", "light"] as const) {

@@ -38,6 +38,7 @@ Footer.`;
     const block: BadgeBlock = {
       platform: "npm",
       packages: ["@lollipop-onl/myzod-to-zod", "copylen"],
+      options: {},
       raw: "```badges:npm\n@lollipop-onl/myzod-to-zod\ncopylen\n```",
     };
 
