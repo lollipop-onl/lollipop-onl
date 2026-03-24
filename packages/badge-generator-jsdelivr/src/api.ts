@@ -32,13 +32,13 @@ export async function fetchJsDelivrPackageInfo(
 
   // Fetch jsDelivr monthly hits
   const statsRes = await fetch(
-    `https://data.jsdelivr.com/v1/packages/npm/${packageName}/stats/date/month`,
+    `https://data.jsdelivr.com/v1/stats/packages/npm/${packageName}?period=month`,
   );
 
   let monthlyHits = 0;
   if (statsRes.ok) {
     const statsData = await statsRes.json();
-    monthlyHits = statsData.total ?? 0;
+    monthlyHits = statsData.hits?.total ?? 0;
   }
 
   return {
