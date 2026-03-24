@@ -6,6 +6,7 @@ export interface NpmPackageInfo {
   lastUpdate: string;
   weeklyDownloads: number;
   deprecated: boolean;
+  createdAt: string;
 }
 
 export async function fetchNpmPackageInfo(
@@ -45,6 +46,7 @@ export async function fetchNpmPackageInfo(
   }
 
   const deprecated = !!registry.versions?.[latestVersion]?.deprecated;
+  const createdAt = registry.time?.created ?? "unknown";
 
   return {
     name: registry.name,
@@ -54,5 +56,6 @@ export async function fetchNpmPackageInfo(
     lastUpdate: lastUpdate.split("T")[0],
     weeklyDownloads,
     deprecated,
+    createdAt: createdAt.split("T")[0],
   };
 }

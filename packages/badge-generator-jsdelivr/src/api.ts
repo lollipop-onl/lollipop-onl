@@ -6,6 +6,7 @@ export interface JsDelivrPackageInfo {
   lastUpdate: string;
   monthlyHits: number;
   deprecated: boolean;
+  createdAt: string;
 }
 
 export async function fetchJsDelivrPackageInfo(
@@ -43,6 +44,7 @@ export async function fetchJsDelivrPackageInfo(
   }
 
   const deprecated = !!registry.versions?.[latestVersion]?.deprecated;
+  const createdAt = registry.time?.created ?? "unknown";
 
   return {
     name: registry.name,
@@ -52,5 +54,6 @@ export async function fetchJsDelivrPackageInfo(
     lastUpdate: lastUpdate.split("T")[0],
     monthlyHits,
     deprecated,
+    createdAt: createdAt.split("T")[0],
   };
 }

@@ -128,12 +128,37 @@ export async function renderBadge(
     });
   }
 
+  const newRibbon = data.isNew
+    ? {
+        type: "div",
+        props: {
+          style: {
+            position: "absolute" as const,
+            top: "14px",
+            right: "-32px",
+            width: "120px",
+            textAlign: "center" as const,
+            padding: "2px 0",
+            backgroundColor: "#2da44e",
+            color: "#ffffff",
+            fontSize: "11px",
+            fontWeight: 700,
+            transform: "rotate(45deg)",
+            letterSpacing: "1px",
+          },
+          children: "NEW",
+        },
+      }
+    : null;
+
   const element = {
     type: "div",
     props: {
       style: {
         display: "flex",
         flexDirection: "column",
+        position: "relative" as const,
+        overflow: "hidden" as const,
         width: "100%",
         padding: "16px 20px",
         backgroundColor: colors.bg,
@@ -144,6 +169,7 @@ export async function renderBadge(
         fontSize: "14px",
       },
       children: [
+        ...(newRibbon ? [newRibbon] : []),
         // Header: logo + name
         {
           type: "div",
