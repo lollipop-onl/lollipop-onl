@@ -42,7 +42,11 @@ Footer.`;
       raw: "```badges:npm\n@lollipop-onl/myzod-to-zod\ncopylen\n```",
     };
 
-    const result = replaceBlocks(template, [block]);
+    const altTexts: Record<string, string> = {
+      "@lollipop-onl/myzod-to-zod": "@lollipop-onl/myzod-to-zod - A codemod (version: 1.0.0)",
+      "copylen": "copylen - Copy by length (version: 2.0.0)",
+    };
+    const result = replaceBlocks(template, [block], altTexts);
 
     expect(result).toContain('<a href="https://www.npmjs.com/package/@lollipop-onl/myzod-to-zod">');
     expect(result).toContain('<a href="https://www.npmjs.com/package/copylen">');
@@ -60,7 +64,7 @@ Footer.`;
     expect(result).toContain(
       'srcset="./assets/badges/npm/copylen@light.svg"',
     );
-    expect(result).toContain('alt="@lollipop-onl/myzod-to-zod"');
+    expect(result).toContain('alt="@lollipop-onl/myzod-to-zod - A codemod (version: 1.0.0)"');
     expect(result).toContain("# Hello");
     expect(result).toContain("Footer.");
     expect(result).not.toContain("```badges:npm");

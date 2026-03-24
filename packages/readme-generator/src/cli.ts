@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { renderBadge, LOGOS } from "@lollipop-onl/badge-generator";
+import { renderBadge, LOGOS, type BadgeData } from "@lollipop-onl/badge-generator";
 import {
   fetchNpmPackageInfo,
   npmToBadgeData,
@@ -17,6 +17,15 @@ import {
 import { parseTemplate } from "./parse.js";
 import { replaceBlocks, toSvgFilename } from "./build.js";
 
+function buildAltText(data: BadgeData): string {
+  let text = data.name;
+  if (data.description) text += ` - ${data.description}`;
+  const fields = data.fields.map((f) => `${f.label}: ${f.value}`).join(", ");
+  if (fields) text += ` (${fields})`;
+  if (data.deprecated) text += " [DEPRECATED]";
+  return text;
+}
+
 const ROOT = join(import.meta.dirname, "..", "..", "..");
 const TEMPLATE_PATH = join(ROOT, "src", "README.md");
 const OUTPUT_PATH = join(ROOT, "README.md");
@@ -25,6 +34,7 @@ const BADGES_BASE_DIR = join(ROOT, "assets", "badges");
 async function main() {
   const template = readFileSync(TEMPLATE_PATH, "utf-8");
   const blocks = parseTemplate(template);
+  const altTexts: Record<string, string> = {};
 
   for (const block of blocks) {
     const badgesDir = join(BADGES_BASE_DIR, block.platform);
@@ -64,6 +74,8 @@ async function main() {
         };
       }
 
+      altTexts[pkgName] = buildAltText(badgeData);
+
       for (const theme of ["dark", "light"] as const) {
         const svg = await renderBadge(badgeData, theme);
         const filename = toSvgFilename(pkgName, theme);
@@ -73,7 +85,7 @@ async function main() {
     }
   }
 
-  const readme = replaceBlocks(template, blocks);
+  const readme = replaceBlocks(template, blocks, altTexts);
   writeFileSync(OUTPUT_PATH, readme);
   console.log("README.md generated.");
 }

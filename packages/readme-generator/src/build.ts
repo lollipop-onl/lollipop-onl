@@ -16,23 +16,21 @@ const PLATFORM_URLS: Record<string, (pkg: string) => string> = {
   webext: (pkg) => `https://github.com/${pkg.split(/\s/)[0]}`,
 };
 
-function toAltText(pkg: string): string {
-  return pkg.split(/\s/)[0];
-}
-
 export function replaceBlocks(
   template: string,
   blocks: BadgeBlock[],
+  altTexts: Record<string, string>,
 ): string {
   let result = template;
 
   for (const block of blocks) {
     const pictures = block.packages
       .map((pkg) => {
+        const pkgId = pkg.split(/\s/)[0];
         const darkFile = toSvgFilename(pkg, "dark");
         const lightFile = toSvgFilename(pkg, "light");
         const url = PLATFORM_URLS[block.platform]?.(pkg) ?? "#";
-        const alt = toAltText(pkg);
+        const alt = altTexts[pkgId] ?? pkgId;
         return `<a href="${url}">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/${block.platform}/${darkFile}">
