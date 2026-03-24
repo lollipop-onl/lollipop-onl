@@ -2,7 +2,8 @@ import type { BadgeTheme } from "@lollipop-onl/badge-generator";
 import type { BadgeBlock } from "./parse.js";
 
 export function toSvgFilename(packageName: string, theme?: BadgeTheme): string {
-  const base = packageName.replace(/^@/, "").replace(/\//g, "-");
+  const name = packageName.split(/\s/)[0]; // Take first token
+  const base = name.replace(/^@/, "").replace(/\//g, "-");
   if (theme) {
     return `${base}@${theme}.svg`;
   }
@@ -12,6 +13,7 @@ export function toSvgFilename(packageName: string, theme?: BadgeTheme): string {
 const PLATFORM_URLS: Record<string, (pkg: string) => string> = {
   npm: (pkg) => `https://www.npmjs.com/package/${pkg}`,
   jsdelivr: (pkg) => `https://www.jsdelivr.com/package/npm/${pkg}`,
+  webext: (pkg) => `https://github.com/${pkg.split(/\s/)[0]}`,
 };
 
 export function replaceBlocks(

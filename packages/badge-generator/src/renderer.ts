@@ -23,6 +23,8 @@ const FIELD_ICONS: Record<string, string> = {
   hits: readFileSync(join(ICONS_DIR, "download.svg"), "utf-8"),
   updated: readFileSync(join(ICONS_DIR, "calendar.svg"), "utf-8"),
   license: readFileSync(join(ICONS_DIR, "license.svg"), "utf-8"),
+  chrome: readFileSync(join(ICONS_DIR, "brand-chrome.svg"), "utf-8"),
+  firefox: readFileSync(join(ICONS_DIR, "brand-firefox.svg"), "utf-8"),
 };
 
 function iconSvgWithColor(svgStr: string, color: string): string {

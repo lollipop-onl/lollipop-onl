@@ -43,20 +43,13 @@ docsify-plugin-ga
 
 ### Browser Extensions
 
-* [Backlog Pull Request Plus](https://github.com/simochee/backlog-pull-request-plus) ![NEW](assets/new.gif) ... Backlog プルリクエストに機能を追加する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/backlog-pull-request-plus/cpafengiapnopbnidfckgambaieonckn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-pull-request-plus/))
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/cpafengiapnopbnidfckgambaieonckn) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/cpafengiapnopbnidfckgambaieonckn) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/cpafengiapnopbnidfckgambaieonckn)
-![Mozilla Add-on Version](https://img.shields.io/amo/v/backlog-pull-request-plus) ![Mozilla Add-on Users](https://img.shields.io/amo/users/backlog-pull-request-plus)
-* [File Icons for Backlog Git](https://github.com/simochee/file-icons-for-backlog-git) ![NEW](assets/new.gif) ... Backlog の Git リポジトリにファイルアイコンを表示する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/aeejnngbcaakhmbcllihmpfijmgaecia)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/file-icons-for-backlog-git/))
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/aeejnngbcaakhmbcllihmpfijmgaecia) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/aeejnngbcaakhmbcllihmpfijmgaecia) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/aeejnngbcaakhmbcllihmpfijmgaecia)
-![Mozilla Add-on Version](https://img.shields.io/amo/v/file-icons-for-backlog-git) ![Mozilla Add-on Users](https://img.shields.io/amo/users/file-icons-for-backlog-git)
-* [Backlog Notification](https://github.com/lollipop-onl/webextensions-backlog-notification) ... Nulab Backlog のお知らせを通知する拡張機能 ([Chrome](https://chrome.google.com/webstore/detail/backlog-notification-exte/gmmfbpjchelnedibjoidghghnigggebn)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/backlog-notification-extension/))
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/gmmfbpjchelnedibjoidghghnigggebn) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/gmmfbpjchelnedibjoidghghnigggebn) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/gmmfbpjchelnedibjoidghghnigggebn)
-![Mozilla Add-on Version](https://img.shields.io/amo/v/backlog-notification-extension) ![Mozilla Add-on Users](https://img.shields.io/amo/users/backlog-notification-extension)
-* [283 PiP](https://github.com/simochee/283-PiP) ... シャニマスを PiP で操作する拡張機能 ([Chrome](https://chromewebstore.google.com/detail/283-pinp/gjpjhdmdbkiabejljimbnjdpmfdonpjb))
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/gjpjhdmdbkiabejljimbnjdpmfdonpjb) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/gjpjhdmdbkiabejljimbnjdpmfdonpjb) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/gjpjhdmdbkiabejljimbnjdpmfdonpjb)
-* [X2B](https://github.com/simochee/X2B) ... X のシェアリンクを Bluesky にリダイレクトさせる拡張機能 ([Chrome](https://chromewebstore.google.com/detail/x2b/caofchgmaapaimkghakiclhlbefjjfbk)・[Firefox](https://addons.mozilla.org/ja/firefox/addon/x2b/))
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/caofchgmaapaimkghakiclhlbefjjfbk) ![Chrome Web Store Last Updated](https://img.shields.io/chrome-web-store/last-updated/caofchgmaapaimkghakiclhlbefjjfbk) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/caofchgmaapaimkghakiclhlbefjjfbk)
-![Mozilla Add-on Version](https://img.shields.io/amo/v/x2b) ![Mozilla Add-on Users](https://img.shields.io/amo/users/x2b)
+```badges:webext
+simochee/backlog-pull-request-plus chrome=cpafengiapnopbnidfckgambaieonckn firefox=backlog-pull-request-plus
+simochee/file-icons-for-backlog-git chrome=aeejnngbcaakhmbcllihmpfijmgaecia firefox=file-icons-for-backlog-git
+lollipop-onl/webextensions-backlog-notification chrome=gmmfbpjchelnedibjoidghghnigggebn firefox=backlog-notification-extension
+simochee/283-PiP chrome=gjpjhdmdbkiabejljimbnjdpmfdonpjb
+simochee/X2B chrome=caofchgmaapaimkghakiclhlbefjjfbk firefox=x2b
+```
 
 ### Websites
 
