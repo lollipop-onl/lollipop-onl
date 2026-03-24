@@ -72,28 +72,14 @@ export async function renderBadge(
 
   const headerChildren: any[] = [
     {
-      type: "div",
+      type: "img",
       props: {
-        style: {
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          width: 28,
-          height: 28,
-          flexShrink: 0,
-        },
-        children: [
-          {
-            type: "img",
-            props: {
-              src: data.logoSvg.startsWith("http")
-                ? data.logoSvg
-                : `data:image/svg+xml,${encodeURIComponent(data.logoSvg)}`,
-              height: 28,
-              style: { borderRadius: "4px", maxWidth: 28, maxHeight: 28 },
-            },
-          },
-        ],
+        src: data.logoSvg.startsWith("http")
+          ? data.logoSvg
+          : `data:image/svg+xml,${encodeURIComponent(data.logoSvg)}`,
+        width: 28,
+        height: 28,
+        style: { borderRadius: "4px" },
       },
     },
     {
