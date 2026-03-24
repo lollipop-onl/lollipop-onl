@@ -10,6 +10,7 @@ export interface WebExtInfo {
   name: string;
   description: string;
   version: string;
+  iconUrl?: string;
   chromeUsers: number;
   firefoxUsers?: number;
   lastUpdate: string;
@@ -36,6 +37,7 @@ export async function fetchWebExtInfo(ext: WebExtLine): Promise<WebExtInfo | nul
   let name = ext.repo.split("/").pop() ?? ext.repo;
   let description = "";
   let version = "unknown";
+  let iconUrl: string | undefined;
   let chromeUsers = 0;
   let lastUpdate = "unknown";
 
@@ -45,6 +47,7 @@ export async function fetchWebExtInfo(ext: WebExtLine): Promise<WebExtInfo | nul
       name = chrome.name() ?? name;
       description = chrome.description() ?? "";
       version = chrome.version() ?? "unknown";
+      iconUrl = chrome.image() ?? undefined;
       const usersStr = chrome.users();
       chromeUsers = usersStr ? parseInt(usersStr.replace(/,/g, ""), 10) || 0 : 0;
       const lastUpdated = chrome.lastUpdated();
@@ -88,6 +91,7 @@ export async function fetchWebExtInfo(ext: WebExtLine): Promise<WebExtInfo | nul
     name,
     description,
     version,
+    iconUrl,
     chromeUsers,
     firefoxUsers,
     lastUpdate,

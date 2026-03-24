@@ -27,7 +27,7 @@ export function webExtToBadgeData(info: WebExtInfo, hasFirefox: boolean): BadgeD
   return {
     name: info.name,
     description: info.description,
-    logoSvg: PUZZLE_ICON,
+    logoSvg: info.iconUrl ?? PUZZLE_ICON,
     deprecated: info.deprecated,
     fields,
   };
