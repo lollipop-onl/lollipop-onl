@@ -70,7 +70,7 @@ export async function renderBadge(
                   src: `data:image/svg+xml,${encodeURIComponent(data.logoSvg)}`,
                   width: 28,
                   height: 28,
-                  style: { borderRadius: "4px" },
+                  style: { borderRadius: "4px", objectFit: "contain" as const },
                 },
               },
               {
@@ -86,9 +86,8 @@ export async function renderBadge(
                       type: "img",
                       props: {
                         src: `data:image/svg+xml,${encodeURIComponent(data.inlineLogoSvg)}`,
-                        width: 20,
                         height: 20,
-                        style: { objectFit: "contain" as const },
+                        style: { height: "100%", width: "auto" },
                       },
                     },
                   ]
