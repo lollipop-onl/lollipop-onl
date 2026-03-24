@@ -62,8 +62,8 @@ export async function renderBadge(
       type: "img",
       props: {
         src: `data:image/svg+xml,${encodeURIComponent(data.inlineLogoSvg)}`,
-        width: 60,
-        height: 16,
+        width: 72,
+        height: 20,
       },
     });
   }
