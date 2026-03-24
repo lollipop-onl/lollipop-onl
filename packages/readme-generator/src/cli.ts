@@ -43,7 +43,7 @@ async function main() {
       }
 
       if (block.options.logo && LOGOS[block.options.logo]) {
-        badgeData = { ...badgeData, logoSvg: LOGOS[block.options.logo] };
+        badgeData = { ...badgeData, inlineLogoSvg: LOGOS[block.options.logo] };
       }
 
       for (const theme of ["dark", "light"] as const) {

@@ -80,6 +80,18 @@ export async function renderBadge(
                   children: data.name,
                 },
               },
+              ...(data.inlineLogoSvg
+                ? [
+                    {
+                      type: "img",
+                      props: {
+                        src: `data:image/svg+xml,${encodeURIComponent(data.inlineLogoSvg)}`,
+                        width: 20,
+                        height: 20,
+                      },
+                    },
+                  ]
+                : []),
             ],
           },
         },
