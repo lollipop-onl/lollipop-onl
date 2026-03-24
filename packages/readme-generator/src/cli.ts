@@ -11,19 +11,20 @@ import { replaceBlocks, toSvgFilename } from "./build.js";
 const ROOT = join(import.meta.dirname, "..", "..", "..");
 const TEMPLATE_PATH = join(ROOT, "src", "README.md");
 const OUTPUT_PATH = join(ROOT, "README.md");
-const BADGES_DIR = join(ROOT, "assets", "badges");
+const BADGES_BASE_DIR = join(ROOT, "assets", "badges");
 
 async function main() {
   const template = readFileSync(TEMPLATE_PATH, "utf-8");
   const blocks = parseTemplate(template);
-
-  mkdirSync(BADGES_DIR, { recursive: true });
 
   for (const block of blocks) {
     if (block.platform !== "npm") {
       console.warn(`[WARN] Unknown platform: ${block.platform}, skipping`);
       continue;
     }
+
+    const badgesDir = join(BADGES_BASE_DIR, block.platform);
+    mkdirSync(badgesDir, { recursive: true });
 
     for (const pkg of block.packages) {
       console.log(`Fetching: ${pkg}`);
@@ -35,8 +36,8 @@ async function main() {
       for (const theme of ["dark", "light"] as const) {
         const svg = await renderBadge(badgeData, theme);
         const filename = toSvgFilename(pkg, theme);
-        writeFileSync(join(BADGES_DIR, filename), svg);
-        console.log(`Generated: ${filename}`);
+        writeFileSync(join(badgesDir, filename), svg);
+        console.log(`Generated: ${block.platform}/${filename}`);
       }
     }
   }

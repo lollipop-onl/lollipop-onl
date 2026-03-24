@@ -21,9 +21,9 @@ export function replaceBlocks(
         const darkFile = toSvgFilename(pkg, "dark");
         const lightFile = toSvgFilename(pkg, "light");
         return `<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/${darkFile}">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/${lightFile}">
-  <img alt="${pkg}" src="./assets/badges/${darkFile}" width="800">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/${block.platform}/${darkFile}">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/${block.platform}/${lightFile}">
+  <img alt="${pkg}" src="./assets/badges/${block.platform}/${darkFile}" width="800">
 </picture>`;
       })
       .join("\n");
