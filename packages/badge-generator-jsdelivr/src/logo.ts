@@ -1,1 +1,6 @@
-export const JSDELIVR_LOGO_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="#e84d3d" rx="8"/><path d="M80 48l48 80-48 80h48l48-80-48-80z" fill="#fff"/></svg>`;
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+
+const BRANDS_DIR = join(import.meta.dirname, "..", "..", "..", "assets", "brands");
+
+export const JSDELIVR_LOGO_SVG = readFileSync(join(BRANDS_DIR, "jsdelivr.svg"), "utf-8");
