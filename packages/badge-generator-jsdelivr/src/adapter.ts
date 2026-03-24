@@ -2,11 +2,11 @@ import type { BadgeData } from "@lollipop-onl/badge-generator";
 import type { JsDelivrPackageInfo } from "./api.js";
 import { JSDELIVR_LOGO_SVG } from "./logo.js";
 
-function isWithinOneYear(dateStr: string): boolean {
+function isRecent(dateStr: string): boolean {
   const created = new Date(dateStr);
-  const oneYearAgo = new Date();
-  oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
-  return created > oneYearAgo;
+  const threeMonthsAgo = new Date();
+  threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+  return created > threeMonthsAgo;
 }
 
 export function jsdelivrToBadgeData(info: JsDelivrPackageInfo): BadgeData {
@@ -15,7 +15,7 @@ export function jsdelivrToBadgeData(info: JsDelivrPackageInfo): BadgeData {
     description: info.description,
     logoSvg: JSDELIVR_LOGO_SVG,
     deprecated: info.deprecated,
-    isNew: isWithinOneYear(info.createdAt),
+    isNew: isRecent(info.createdAt),
     fields: [
       { label: "version", value: info.version },
       { label: "hits", value: `${info.monthlyHits}/month` },
