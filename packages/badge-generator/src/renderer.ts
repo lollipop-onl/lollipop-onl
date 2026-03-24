@@ -88,6 +88,7 @@ export async function renderBadge(
                         src: `data:image/svg+xml,${encodeURIComponent(data.inlineLogoSvg)}`,
                         width: 20,
                         height: 20,
+                        style: { objectFit: "contain" as const },
                       },
                     },
                   ]
