@@ -5,6 +5,10 @@ import {
   fetchNpmPackageInfo,
   npmToBadgeData,
 } from "@lollipop-onl/badge-generator-npm";
+import {
+  fetchJsDelivrPackageInfo,
+  jsdelivrToBadgeData,
+} from "@lollipop-onl/badge-generator-jsdelivr";
 import { parseTemplate } from "./parse.js";
 import { replaceBlocks, toSvgFilename } from "./build.js";
 
@@ -18,20 +22,25 @@ async function main() {
   const blocks = parseTemplate(template);
 
   for (const block of blocks) {
-    if (block.platform !== "npm") {
-      console.warn(`[WARN] Unknown platform: ${block.platform}, skipping`);
-      continue;
-    }
-
     const badgesDir = join(BADGES_BASE_DIR, block.platform);
     mkdirSync(badgesDir, { recursive: true });
 
     for (const pkg of block.packages) {
       console.log(`Fetching: ${pkg}`);
-      const info = await fetchNpmPackageInfo(pkg);
-      if (!info) continue;
 
-      const badgeData = npmToBadgeData(info);
+      let badgeData;
+      if (block.platform === "npm") {
+        const info = await fetchNpmPackageInfo(pkg);
+        if (!info) continue;
+        badgeData = npmToBadgeData(info);
+      } else if (block.platform === "jsdelivr") {
+        const info = await fetchJsDelivrPackageInfo(pkg);
+        if (!info) continue;
+        badgeData = jsdelivrToBadgeData(info);
+      } else {
+        console.warn(`[WARN] Unknown platform: ${block.platform}, skipping`);
+        continue;
+      }
 
       for (const theme of ["dark", "light"] as const) {
         const svg = await renderBadge(badgeData, theme);

@@ -74,15 +74,30 @@
 ### Docsify Plugins
 
 * [docsify-shiki](https://www.npmjs.com/package/docsify-shiki) ... Docsify のハイライターを Shiki に置き換えるプラグイン
-![NPM Version](https://img.shields.io/npm/v/docsify-shiki) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-shiki) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-shiki) ![NPM License](https://img.shields.io/npm/l/docsify-shiki)
 * [docsify-plugin-github-footer](https://www.npmjs.com/package/docsify-plugin-github-footer) ... Docsify で GitHub での編集リンクをフッターに追加するプラグイン
-![NPM Version](https://img.shields.io/npm/v/docsify-plugin-github-footer) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-plugin-github-footer)
- ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-github-footer) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-github-footer)
 * [docsify-plugin-page-history](https://www.npmjs.com/package/docsify-plugin-page-history) ... Docsify でページごとの変更履歴を残せるプラグイン
-![NPM Version](https://img.shields.io/npm/v/docsify-plugin-page-history) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-plugin-page-history)
- ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-page-history) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-page-history)
 * [docsify-plugin-ga](https://www.npmjs.com/package/docsify-plugin-ga) ... Docsify で GA4 を利用するプラグイン
-![NPM Version](https://img.shields.io/npm/v/docsify-plugin-ga) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hw/docsify-plugin-ga) ![NPM Last Update](https://img.shields.io/npm/last-update/docsify-plugin-ga) ![NPM License](https://img.shields.io/npm/l/docsify-plugin-ga)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-shiki@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-shiki@light.svg">
+  <img alt="docsify-shiki" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@light.svg">
+  <img alt="docsify-plugin-github-footer" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@light.svg">
+  <img alt="docsify-plugin-page-history" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@light.svg">
+  <img alt="docsify-plugin-ga" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
+</picture>
 
 ### Browser Extensions
 

@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@lollipop-onl/badge-generator": "workspace:*",
-    "@lollipop-onl/badge-generator-npm": "workspace:*"
+    "@lollipop-onl/badge-generator-npm": "workspace:*",
+    "@lollipop-onl/badge-generator-jsdelivr": "workspace:*"
   }
 }

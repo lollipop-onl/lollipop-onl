@@ -12,6 +12,13 @@
         "satori": "^0.12.0",
       },
     },
+    "packages/badge-generator-jsdelivr": {
+      "name": "@lollipop-onl/badge-generator-jsdelivr",
+      "version": "0.0.0",
+      "dependencies": {
+        "@lollipop-onl/badge-generator": "workspace:*",
+      },
+    },
     "packages/badge-generator-npm": {
       "name": "@lollipop-onl/badge-generator-npm",
       "version": "0.0.0",
@@ -24,12 +31,15 @@
       "version": "0.0.0",
       "dependencies": {
         "@lollipop-onl/badge-generator": "workspace:*",
+        "@lollipop-onl/badge-generator-jsdelivr": "workspace:*",
         "@lollipop-onl/badge-generator-npm": "workspace:*",
       },
     },
   },
   "packages": {
     "@lollipop-onl/badge-generator": ["@lollipop-onl/badge-generator@workspace:packages/badge-generator"],
+
+    "@lollipop-onl/badge-generator-jsdelivr": ["@lollipop-onl/badge-generator-jsdelivr@workspace:packages/badge-generator-jsdelivr"],
 
     "@lollipop-onl/badge-generator-npm": ["@lollipop-onl/badge-generator-npm@workspace:packages/badge-generator-npm"],
 
