@@ -1,0 +1,14 @@
+{
+  "name": "lollipop-onl",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "generate": "bun run packages/readme-generator/src/cli.ts"
+  },
+  "devDependencies": {
+    "@tabler/icons": "^3.40.0"
+  },
+  "dependencies": {
+    "webextension-store-meta": "^1.2.10"
+  }
+}
