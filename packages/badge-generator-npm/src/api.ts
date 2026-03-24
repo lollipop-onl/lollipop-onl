@@ -5,6 +5,7 @@ export interface NpmPackageInfo {
   license: string;
   lastUpdate: string;
   weeklyDownloads: number;
+  deprecated: boolean;
 }
 
 export async function fetchNpmPackageInfo(
@@ -43,6 +44,8 @@ export async function fetchNpmPackageInfo(
     weeklyDownloads = downloadsData.downloads ?? 0;
   }
 
+  const deprecated = !!registry.versions?.[latestVersion]?.deprecated;
+
   return {
     name: registry.name,
     description: registry.description ?? "",
@@ -50,5 +53,6 @@ export async function fetchNpmPackageInfo(
     license: typeof license === "object" ? license.type ?? "unknown" : license,
     lastUpdate: lastUpdate.split("T")[0],
     weeklyDownloads,
+    deprecated,
   };
 }

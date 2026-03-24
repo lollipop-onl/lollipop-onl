@@ -7,6 +7,7 @@ export function jsdelivrToBadgeData(info: JsDelivrPackageInfo): BadgeData {
     name: info.name,
     description: info.description,
     logoSvg: JSDELIVR_LOGO_SVG,
+    deprecated: info.deprecated,
     fields: [
       { label: "version", value: info.version },
       { label: "hits", value: `${info.monthlyHits}/month` },

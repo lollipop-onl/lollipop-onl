@@ -5,6 +5,7 @@ export interface JsDelivrPackageInfo {
   license: string;
   lastUpdate: string;
   monthlyHits: number;
+  deprecated: boolean;
 }
 
 export async function fetchJsDelivrPackageInfo(
@@ -41,6 +42,8 @@ export async function fetchJsDelivrPackageInfo(
     monthlyHits = statsData.hits?.total ?? 0;
   }
 
+  const deprecated = !!registry.versions?.[latestVersion]?.deprecated;
+
   return {
     name: registry.name,
     description: registry.description ?? "",
@@ -48,5 +51,6 @@ export async function fetchJsDelivrPackageInfo(
     license: typeof license === "object" ? license.type ?? "unknown" : license,
     lastUpdate: lastUpdate.split("T")[0],
     monthlyHits,
+    deprecated,
   };
 }

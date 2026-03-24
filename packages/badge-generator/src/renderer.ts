@@ -40,6 +40,8 @@ async function getFonts() {
   return fontsCache;
 }
 
+const DEPRECATED_ICON = readFileSync(join(ICONS_DIR, "alert-triangle.svg"), "utf-8");
+
 const themeColors = {
   dark: {
     bg: "#0d1117",
@@ -92,6 +94,36 @@ export async function renderBadge(
         src: `data:image/svg+xml,${encodeURIComponent(data.inlineLogoSvg)}`,
         width: 72,
         height: 20,
+      },
+    });
+  }
+
+  if (data.deprecated) {
+    headerChildren.push({
+      type: "div",
+      props: {
+        style: {
+          display: "flex",
+          alignItems: "center",
+          gap: "3px",
+          padding: "2px 8px",
+          backgroundColor: "#da3633",
+          borderRadius: "12px",
+          fontSize: "11px",
+          color: "#ffffff",
+          fontWeight: 700,
+        },
+        children: [
+          {
+            type: "img",
+            props: {
+              src: `data:image/svg+xml,${encodeURIComponent(iconSvgWithColor(DEPRECATED_ICON, "#ffffff"))}`,
+              width: 12,
+              height: 12,
+            },
+          },
+          "DEPRECATED",
+        ],
       },
     });
   }

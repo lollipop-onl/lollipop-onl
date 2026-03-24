@@ -7,6 +7,7 @@ export function npmToBadgeData(info: NpmPackageInfo): BadgeData {
     name: info.name,
     description: info.description,
     logoSvg: NPM_LOGO_SVG,
+    deprecated: info.deprecated,
     fields: [
       { label: "version", value: info.version },
       { label: "downloads", value: `${info.weeklyDownloads}/week` },

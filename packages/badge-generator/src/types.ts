@@ -10,5 +10,6 @@ export interface BadgeData {
   description: string;
   logoSvg: string;
   inlineLogoSvg?: string;
+  deprecated?: boolean;
   fields: BadgeField[];
 }
