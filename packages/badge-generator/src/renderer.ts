@@ -268,7 +268,7 @@ export async function renderBadge(
                   {
                     type: "span",
                     props: {
-                      style: { color: colors.text, fontWeight: 700 },
+                      style: { color: field.color ?? colors.text, fontWeight: 700 },
                       children: field.value,
                     },
                   },

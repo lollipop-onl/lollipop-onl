@@ -1,4 +1,10 @@
-import type { BadgeData } from "@lollipop-onl/badge-generator";
+import {
+  type BadgeData,
+  BADGE_COLORS,
+  versionColor,
+  downloadsColor,
+  ageColor,
+} from "@lollipop-onl/badge-generator";
 import type { NpmPackageInfo } from "./api.js";
 import { NPM_LOGO_SVG } from "./logo.js";
 
@@ -17,10 +23,10 @@ export function npmToBadgeData(info: NpmPackageInfo): BadgeData {
     deprecated: info.deprecated,
     isNew: isRecent(info.createdAt),
     fields: [
-      { label: "version", value: info.version },
-      { label: "downloads", value: `${info.weeklyDownloads}/week` },
-      { label: "updated", value: info.lastUpdate },
-      { label: "license", value: info.license },
+      { label: "version", value: info.version, color: versionColor(info.version) },
+      { label: "downloads", value: `${info.weeklyDownloads}/week`, color: downloadsColor(info.weeklyDownloads) },
+      { label: "updated", value: info.lastUpdate, color: ageColor(info.lastUpdate) },
+      { label: "license", value: info.license, color: BADGE_COLORS.blue },
     ],
   };
 }
