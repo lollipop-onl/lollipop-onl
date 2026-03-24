@@ -134,11 +134,9 @@ export async function renderBadge(
         props: {
           style: {
             position: "absolute" as const,
-            top: "10px",
-            right: "-36px",
+            top: "12px",
+            right: "-40px",
             display: "flex",
-            alignItems: "center" as const,
-            justifyContent: "center" as const,
             width: "140px",
             padding: "4px 0",
             backgroundColor: "#2da44e",
@@ -147,9 +145,17 @@ export async function renderBadge(
             fontWeight: 700,
             transform: "rotate(45deg)",
             letterSpacing: "1px",
-            boxShadow: "0 2px 4px rgba(0,0,0,0.3)",
+            boxShadow: "0 1px 2px rgba(0,0,0,0.15)",
           },
-          children: "NEW",
+          children: [
+            {
+              type: "span",
+              props: {
+                style: { margin: "0 auto" },
+                children: "NEW",
+              },
+            },
+          ],
         },
       }
     : null;
