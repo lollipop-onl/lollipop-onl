@@ -63,6 +63,31 @@ const themeColors = {
   },
 } as const;
 
+function hexToRgb(hex: string): [number, number, number] {
+  const h = hex.replace("#", "");
+  const full = h.length === 3 ? h.split("").map((c) => c + c).join("") : h;
+  return [
+    parseInt(full.slice(0, 2), 16),
+    parseInt(full.slice(2, 4), 16),
+    parseInt(full.slice(4, 6), 16),
+  ];
+}
+
+function rgbToHex(r: number, g: number, b: number): string {
+  return `#${[r, g, b].map((v) => Math.round(v).toString(16).padStart(2, "0")).join("")}`;
+}
+
+/** Mix a foreground color over a background at a given alpha (0–1) */
+function mixColor(fg: string, bg: string, alpha: number): string {
+  const [fr, fg2, fb] = hexToRgb(fg);
+  const [br, bg2, bb] = hexToRgb(bg);
+  return rgbToHex(
+    fr * alpha + br * (1 - alpha),
+    fg2 * alpha + bg2 * (1 - alpha),
+    fb * alpha + bb * (1 - alpha),
+  );
+}
+
 export async function renderBadge(
   data: BadgeData,
   theme: BadgeTheme = "dark",
@@ -221,7 +246,11 @@ export async function renderBadge(
               marginLeft: "40px",
               fontSize: "12px",
             },
-            children: data.fields.map((field) => ({
+            children: data.fields.map((field) => {
+              const fc = field.color;
+              const fieldBg = fc ? mixColor(fc, colors.bg, 0.12) : colors.fieldBg;
+              const fieldBorder = fc ? mixColor(fc, colors.bg, 0.35) : colors.fieldBorder;
+              return {
               type: "div",
               props: {
                 style: {
@@ -229,9 +258,9 @@ export async function renderBadge(
                   alignItems: "center",
                   gap: "4px",
                   padding: "2px 8px",
-                  backgroundColor: colors.fieldBg,
+                  backgroundColor: fieldBg,
                   borderRadius: "12px",
-                  border: `1px solid ${colors.fieldBorder}`,
+                  border: `1px solid ${fieldBorder}`,
                 },
                 children: [
                   ...(FIELD_ICONS[field.label]
@@ -239,7 +268,7 @@ export async function renderBadge(
                         {
                           type: "img",
                           props: {
-                            src: `data:image/svg+xml,${encodeURIComponent(iconSvgWithColor(FIELD_ICONS[field.label], colors.secondary))}`,
+                            src: `data:image/svg+xml,${encodeURIComponent(iconSvgWithColor(FIELD_ICONS[field.label], fc ?? colors.secondary))}`,
                             width: 14,
                             height: 14,
                           },
@@ -274,7 +303,7 @@ export async function renderBadge(
                   },
                 ],
               },
-            })),
+            }; }),
           },
         },
       ],
