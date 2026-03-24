@@ -1,7 +1,35 @@
 // packages/badge-generator/src/renderer.ts
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import satori from "satori";
 import { loadFonts } from "./font.js";
 import type { BadgeData, BadgeTheme } from "./types.js";
+
+const ICONS_DIR = join(
+  import.meta.dirname,
+  "..",
+  "..",
+  "..",
+  "node_modules",
+  "@tabler",
+  "icons",
+  "icons",
+  "outline",
+);
+
+const FIELD_ICONS: Record<string, string> = {
+  version: readFileSync(join(ICONS_DIR, "tag.svg"), "utf-8"),
+  downloads: readFileSync(join(ICONS_DIR, "download.svg"), "utf-8"),
+  hits: readFileSync(join(ICONS_DIR, "download.svg"), "utf-8"),
+  updated: readFileSync(join(ICONS_DIR, "calendar.svg"), "utf-8"),
+  license: readFileSync(join(ICONS_DIR, "license.svg"), "utf-8"),
+};
+
+function iconSvgWithColor(svgStr: string, color: string): string {
+  return svgStr
+    .replace(/class="[^"]*"/g, "")
+    .replace(/stroke="currentColor"/g, `stroke="${color}"`);
+}
 
 let fontsCache: Awaited<ReturnType<typeof loadFonts>> | null = null;
 
@@ -136,13 +164,26 @@ export async function renderBadge(
                   border: `1px solid ${colors.fieldBorder}`,
                 },
                 children: [
-                  {
-                    type: "span",
-                    props: {
-                      style: { color: colors.secondary },
-                      children: field.label,
-                    },
-                  },
+                  ...(FIELD_ICONS[field.label]
+                    ? [
+                        {
+                          type: "img",
+                          props: {
+                            src: `data:image/svg+xml,${encodeURIComponent(iconSvgWithColor(FIELD_ICONS[field.label], colors.secondary))}`,
+                            width: 14,
+                            height: 14,
+                          },
+                        },
+                      ]
+                    : [
+                        {
+                          type: "span",
+                          props: {
+                            style: { color: colors.secondary },
+                            children: field.label,
+                          },
+                        },
+                      ]),
                   {
                     type: "span",
                     props: {
