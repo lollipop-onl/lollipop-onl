@@ -115,35 +115,35 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-backlog-pull-request-plus@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-backlog-pull-request-plus@light.svg">
-    <img alt="simochee/backlog-pull-request-plus chrome=cpafengiapnopbnidfckgambaieonckn firefox=backlog-pull-request-plus" src="./assets/badges/webext/simochee-backlog-pull-request-plus@dark.svg" width="800">
+    <img alt="simochee/backlog-pull-request-plus" src="./assets/badges/webext/simochee-backlog-pull-request-plus@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/file-icons-for-backlog-git">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-file-icons-for-backlog-git@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-file-icons-for-backlog-git@light.svg">
-    <img alt="simochee/file-icons-for-backlog-git chrome=aeejnngbcaakhmbcllihmpfijmgaecia firefox=file-icons-for-backlog-git" src="./assets/badges/webext/simochee-file-icons-for-backlog-git@dark.svg" width="800">
+    <img alt="simochee/file-icons-for-backlog-git" src="./assets/badges/webext/simochee-file-icons-for-backlog-git@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/lollipop-onl/webextensions-backlog-notification">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@light.svg">
-    <img alt="lollipop-onl/webextensions-backlog-notification chrome=gmmfbpjchelnedibjoidghghnigggebn firefox=backlog-notification-extension" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
+    <img alt="lollipop-onl/webextensions-backlog-notification" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/283-PiP">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-283-PiP@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-283-PiP@light.svg">
-    <img alt="simochee/283-PiP chrome=gjpjhdmdbkiabejljimbnjdpmfdonpjb" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
+    <img alt="simochee/283-PiP" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/X2B">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-X2B@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-X2B@light.svg">
-    <img alt="simochee/X2B chrome=caofchgmaapaimkghakiclhlbefjjfbk firefox=x2b" src="./assets/badges/webext/simochee-X2B@dark.svg" width="800">
+    <img alt="simochee/X2B" src="./assets/badges/webext/simochee-X2B@dark.svg" width="800">
   </picture>
 </a>
 

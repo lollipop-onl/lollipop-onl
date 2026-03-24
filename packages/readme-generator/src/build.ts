@@ -16,6 +16,10 @@ const PLATFORM_URLS: Record<string, (pkg: string) => string> = {
   webext: (pkg) => `https://github.com/${pkg.split(/\s/)[0]}`,
 };
 
+function toAltText(pkg: string): string {
+  return pkg.split(/\s/)[0];
+}
+
 export function replaceBlocks(
   template: string,
   blocks: BadgeBlock[],
@@ -28,11 +32,12 @@ export function replaceBlocks(
         const darkFile = toSvgFilename(pkg, "dark");
         const lightFile = toSvgFilename(pkg, "light");
         const url = PLATFORM_URLS[block.platform]?.(pkg) ?? "#";
+        const alt = toAltText(pkg);
         return `<a href="${url}">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/${block.platform}/${darkFile}">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/${block.platform}/${lightFile}">
-    <img alt="${pkg}" src="./assets/badges/${block.platform}/${darkFile}" width="800">
+    <img alt="${alt}" src="./assets/badges/${block.platform}/${darkFile}" width="800">
   </picture>
 </a>`;
       })
