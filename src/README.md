@@ -30,14 +30,16 @@
 * [@lollipop-onl/vue-typed-reactive](https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive) ... 型安全な Vue.set/Vue.delete メソッドを提供するライブラリ
 * [@lollipop-onl/axios-logger](https://www.npmjs.com/package/@lollipop-onl/axios-logger) ... Axiosの通信ログをConsoleに表示するユニバーサルなライブラリ
 
-<img src="./assets/badges/lollipop-onl-myzod-to-zod.svg" alt="@lollipop-onl/myzod-to-zod" width="800">
-<img src="./assets/badges/passport-mrz-builder.svg" alt="@passport-mrz/builder" width="800">
-<img src="./assets/badges/passport-mrz-renderer.svg" alt="@passport-mrz/renderer" width="800">
-<img src="./assets/badges/copylen.svg" alt="copylen" width="800">
-<img src="./assets/badges/docsify-serve.svg" alt="docsify-serve" width="800">
-<img src="./assets/badges/lollipop-onl-vuex-typesafe-helper.svg" alt="@lollipop-onl/vuex-typesafe-helper" width="800">
-<img src="./assets/badges/lollipop-onl-vue-typed-reactive.svg" alt="@lollipop-onl/vue-typed-reactive" width="800">
-<img src="./assets/badges/lollipop-onl-axios-logger.svg" alt="@lollipop-onl/axios-logger" width="800">
+```badges:npm
+@lollipop-onl/myzod-to-zod
+@passport-mrz/builder
+@passport-mrz/renderer
+copylen
+docsify-serve
+@lollipop-onl/vuex-typesafe-helper
+@lollipop-onl/vue-typed-reactive
+@lollipop-onl/axios-logger
+```
 
 ### Docsify Plugins
 
