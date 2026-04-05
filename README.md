@@ -25,14 +25,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-myzod-to-zod@light.svg">
-    <img alt="@lollipop-onl/myzod-to-zod - A codemod to migrate from myzod to zod v3 (version: 1.2.0, downloads: 1/week, updated: 2025-09-26, license: MIT)" src="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg" width="800">
+    <img alt="@lollipop-onl/myzod-to-zod - A codemod to migrate from myzod to zod v3 (version: 1.2.0, downloads: 2/week, updated: 2025-09-26, license: MIT)" src="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@passport-mrz/builder">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/passport-mrz-builder@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/passport-mrz-builder@light.svg">
-    <img alt="@passport-mrz/builder - A library for generating passport MRZ (Machine Readable Zone) strings (version: 1.0.0, downloads: 12/week, updated: 2025-06-29, license: MIT)" src="./assets/badges/npm/passport-mrz-builder@dark.svg" width="800">
+    <img alt="@passport-mrz/builder - A library for generating passport MRZ (Machine Readable Zone) strings (version: 1.0.0, downloads: 9/week, updated: 2025-06-29, license: MIT)" src="./assets/badges/npm/passport-mrz-builder@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@passport-mrz/renderer">
@@ -46,7 +46,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/copylen@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/copylen@light.svg">
-    <img alt="copylen - Copies file content based on character length (version: 1.0.9, downloads: 2/week, updated: 2024-07-10, license: MIT)" src="./assets/badges/npm/copylen@dark.svg" width="800">
+    <img alt="copylen - Copies file content based on character length (version: 1.0.9, downloads: 1/week, updated: 2024-07-10, license: MIT)" src="./assets/badges/npm/copylen@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/docsify-serve">
@@ -60,7 +60,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@light.svg">
-    <img alt="@lollipop-onl/vuex-typesafe-helper - Vuex minimaly typesafe system (version: 1.0.1, downloads: 113/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg" width="800">
+    <img alt="@lollipop-onl/vuex-typesafe-helper - Vuex minimaly typesafe system (version: 1.0.1, downloads: 116/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive">
@@ -74,7 +74,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@light.svg">
-    <img alt="@lollipop-onl/axios-logger - Pretty Axios logger (version: 0.2.3, downloads: 54/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg" width="800">
+    <img alt="@lollipop-onl/axios-logger - Pretty Axios logger (version: 0.2.3, downloads: 53/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg" width="800">
   </picture>
 </a>
 
@@ -84,28 +84,28 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-shiki@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-shiki@light.svg">
-    <img alt="docsify-shiki - Replace syntax highlight with Shiki (version: 1.1.0, hits: 115/month, updated: 2025-01-19, license: MIT)" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
+    <img alt="docsify-shiki - Replace syntax highlight with Shiki (version: 1.1.0, hits: 109/month, updated: 2025-01-19, license: MIT)" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-github-footer">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@light.svg">
-    <img alt="docsify-plugin-github-footer - Useful GitHub Pages links footer for Docsify (version: 1.0.1, hits: 140/month, updated: 2024-01-09, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
+    <img alt="docsify-plugin-github-footer - Useful GitHub Pages links footer for Docsify (version: 1.0.1, hits: 146/month, updated: 2024-01-09, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-page-history">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@light.svg">
-    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 309/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
+    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 306/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-ga">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@light.svg">
-    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 2807/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
+    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 2793/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
   </picture>
 </a>
 
@@ -136,7 +136,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-283-PiP@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-283-PiP@light.svg">
-    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 32, updated: January 1, 2025)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
+    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 31, updated: January 1, 2025)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/X2B">
