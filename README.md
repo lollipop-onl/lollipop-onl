@@ -32,14 +32,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/passport-mrz-builder@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/passport-mrz-builder@light.svg">
-    <img alt="@passport-mrz/builder - A library for generating passport MRZ (Machine Readable Zone) strings (version: 1.0.0, downloads: 9/week, updated: 2025-06-29, license: MIT)" src="./assets/badges/npm/passport-mrz-builder@dark.svg" width="800">
+    <img alt="@passport-mrz/builder - A library for generating passport MRZ (Machine Readable Zone) strings (version: 1.0.0, downloads: 12/week, updated: 2025-06-29, license: MIT)" src="./assets/badges/npm/passport-mrz-builder@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@passport-mrz/renderer">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/passport-mrz-renderer@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/passport-mrz-renderer@light.svg">
-    <img alt="@passport-mrz/renderer - A passport MRZ string rendering library that supports both browser and Node.js environments (version: 1.0.0, downloads: 3/week, updated: 2025-06-29, license: MIT)" src="./assets/badges/npm/passport-mrz-renderer@dark.svg" width="800">
+    <img alt="@passport-mrz/renderer - A passport MRZ string rendering library that supports both browser and Node.js environments (version: 1.0.0, downloads: 4/week, updated: 2025-06-29, license: MIT)" src="./assets/badges/npm/passport-mrz-renderer@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/copylen">
@@ -53,28 +53,28 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/docsify-serve@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/docsify-serve@light.svg">
-    <img alt="docsify-serve - Enhanced development server for Docsify (version: 1.1.2, downloads: 5/week, updated: 2024-11-27, license: MIT)" src="./assets/badges/npm/docsify-serve@dark.svg" width="800">
+    <img alt="docsify-serve - Enhanced development server for Docsify (version: 1.1.2, downloads: 4/week, updated: 2024-11-27, license: MIT)" src="./assets/badges/npm/docsify-serve@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@lollipop-onl/vuex-typesafe-helper">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@light.svg">
-    <img alt="@lollipop-onl/vuex-typesafe-helper - Vuex minimaly typesafe system (version: 1.0.1, downloads: 139/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg" width="800">
+    <img alt="@lollipop-onl/vuex-typesafe-helper - Vuex minimaly typesafe system (version: 1.0.1, downloads: 136/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-vue-typed-reactive@light.svg">
-    <img alt="@lollipop-onl/vue-typed-reactive - Provide type-safe Vue.set/Vue.delete mehtods (version: 1.1.5, downloads: 57/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg" width="800">
+    <img alt="@lollipop-onl/vue-typed-reactive - Provide type-safe Vue.set/Vue.delete mehtods (version: 1.1.5, downloads: 64/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@lollipop-onl/axios-logger">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@light.svg">
-    <img alt="@lollipop-onl/axios-logger - Pretty Axios logger (version: 0.2.3, downloads: 79/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg" width="800">
+    <img alt="@lollipop-onl/axios-logger - Pretty Axios logger (version: 0.2.3, downloads: 93/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg" width="800">
   </picture>
 </a>
 
@@ -122,21 +122,21 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-file-icons-for-backlog-git@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-file-icons-for-backlog-git@light.svg">
-    <img alt="File Icons for Backlog Git - Chrome Web Store - Backlog Git にファイルアイコンを表示します (version: 1.2.0, chrome: 7, firefox: 0, updated: 2025-08-30)" src="./assets/badges/webext/simochee-file-icons-for-backlog-git@dark.svg" width="800">
+    <img alt="File Icons for Backlog Git - Chrome Web Store - Backlog Git にファイルアイコンを表示します (version: 1.2.0, chrome: 8, firefox: 0, updated: 2025-08-30)" src="./assets/badges/webext/simochee-file-icons-for-backlog-git@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/lollipop-onl/webextensions-backlog-notification">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@light.svg">
-    <img alt="Backlog Notification Extension - Chrome Web Store - Backlog のお知らせをメニューバーから通知・確認できる Web Extension です (version: 1.5.0, chrome: 170, firefox: 4, updated: 2025-01-15)" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
+    <img alt="Backlog Notification Extension - Chrome Web Store - Backlog のお知らせをメニューバーから通知・確認できる Web Extension です (version: 1.5.0, chrome: 173, firefox: 4, updated: 2025-01-15)" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/283-PiP">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-283-PiP@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-283-PiP@light.svg">
-    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 40, updated: December 31, 2024)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
+    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 38, updated: January 1, 2025)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/X2B">
