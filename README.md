@@ -25,7 +25,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-myzod-to-zod@light.svg">
-    <img alt="@lollipop-onl/myzod-to-zod - A codemod to migrate from myzod to zod v3 (version: 1.2.0, downloads: 24/week, updated: 2025-09-26, license: MIT)" src="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg" width="800">
+    <img alt="@lollipop-onl/myzod-to-zod - A codemod to migrate from myzod to zod v3 (version: 1.2.0, downloads: 18/week, updated: 2025-09-26, license: MIT)" src="./assets/badges/npm/lollipop-onl-myzod-to-zod@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@passport-mrz/builder">
@@ -60,21 +60,21 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@light.svg">
-    <img alt="@lollipop-onl/vuex-typesafe-helper - Vuex minimaly typesafe system (version: 1.0.1, downloads: 229/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg" width="800">
+    <img alt="@lollipop-onl/vuex-typesafe-helper - Vuex minimaly typesafe system (version: 1.0.1, downloads: 213/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vuex-typesafe-helper@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@lollipop-onl/vue-typed-reactive">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-vue-typed-reactive@light.svg">
-    <img alt="@lollipop-onl/vue-typed-reactive - Provide type-safe Vue.set/Vue.delete mehtods (version: 1.1.5, downloads: 185/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg" width="800">
+    <img alt="@lollipop-onl/vue-typed-reactive - Provide type-safe Vue.set/Vue.delete mehtods (version: 1.1.5, downloads: 161/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-vue-typed-reactive@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.npmjs.com/package/@lollipop-onl/axios-logger">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/npm/lollipop-onl-axios-logger@light.svg">
-    <img alt="@lollipop-onl/axios-logger - Pretty Axios logger (version: 0.2.3, downloads: 194/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg" width="800">
+    <img alt="@lollipop-onl/axios-logger - Pretty Axios logger (version: 0.2.3, downloads: 176/week, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/npm/lollipop-onl-axios-logger@dark.svg" width="800">
   </picture>
 </a>
 
@@ -98,14 +98,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@light.svg">
-    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 185/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
+    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 182/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-ga">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@light.svg">
-    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1488/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
+    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1424/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
   </picture>
 </a>
 
@@ -129,14 +129,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@light.svg">
-    <img alt="Backlog Notification Extension - Chrome Web Store - Backlog のお知らせをメニューバーから通知・確認できる Web Extension です (version: 1.5.0, chrome: 173, firefox: 4, updated: 2025-01-15)" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
+    <img alt="Backlog Notification Extension - Chrome Web Store - Backlog のお知らせをメニューバーから通知・確認できる Web Extension です (version: 1.5.0, chrome: 174, firefox: 4, updated: 2025-01-15)" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/283-PiP">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-283-PiP@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-283-PiP@light.svg">
-    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 37, updated: January 1, 2025)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
+    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 39, updated: December 31, 2024)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/X2B">
