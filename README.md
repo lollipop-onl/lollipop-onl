@@ -84,28 +84,28 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-shiki@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-shiki@light.svg">
-    <img alt="docsify-shiki - Replace syntax highlight with Shiki (version: 1.1.0, hits: 120/month, updated: 2025-01-19, license: MIT)" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
+    <img alt="docsify-shiki - Replace syntax highlight with Shiki (version: 1.1.0, hits: 115/month, updated: 2025-01-19, license: MIT)" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-github-footer">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@light.svg">
-    <img alt="docsify-plugin-github-footer - Useful GitHub Pages links footer for Docsify (version: 1.0.1, hits: 116/month, updated: 2024-01-09, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
+    <img alt="docsify-plugin-github-footer - Useful GitHub Pages links footer for Docsify (version: 1.0.1, hits: 118/month, updated: 2024-01-09, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-page-history">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@light.svg">
-    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 195/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
+    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 206/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-ga">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@light.svg">
-    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1574/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
+    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1634/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
   </picture>
 </a>
 
@@ -129,14 +129,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@light.svg">
-    <img alt="Backlog Notification Extension - Chrome Web Store - Backlog のお知らせをメニューバーから通知・確認できる Web Extension です (version: 1.5.0, chrome: 178, firefox: 4, updated: 2025-01-15)" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
+    <img alt="Backlog Notification Extension - Chrome Web Store - Backlog のお知らせをメニューバーから通知・確認できる Web Extension です (version: 1.5.0, chrome: 180, firefox: 4, updated: 2025-01-15)" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/283-PiP">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-283-PiP@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-283-PiP@light.svg">
-    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 43, updated: December 31, 2024)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
+    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 43, updated: January 1, 2025)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/X2B">
