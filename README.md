@@ -84,28 +84,28 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-shiki@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-shiki@light.svg">
-    <img alt="docsify-shiki - Replace syntax highlight with Shiki (version: 1.1.0, hits: 159/month, updated: 2025-01-19, license: MIT)" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
+    <img alt="docsify-shiki - Replace syntax highlight with Shiki (version: 1.1.0, hits: 161/month, updated: 2025-01-19, license: MIT)" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-github-footer">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@light.svg">
-    <img alt="docsify-plugin-github-footer - Useful GitHub Pages links footer for Docsify (version: 1.0.1, hits: 120/month, updated: 2024-01-09, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
+    <img alt="docsify-plugin-github-footer - Useful GitHub Pages links footer for Docsify (version: 1.0.1, hits: 123/month, updated: 2024-01-09, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-page-history">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@light.svg">
-    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 231/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
+    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 232/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-ga">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@light.svg">
-    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1596/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
+    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1561/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
   </picture>
 </a>
 
@@ -115,7 +115,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-backlog-pull-request-plus@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-backlog-pull-request-plus@light.svg">
-    <img alt="Backlog Pull Request Plus - Chrome Web Store - Backlog Git のプルリクエスト画面にサイドバーや確認済みチェックボックスを追加するブラウザ拡張機能。 (version: 1.1.0, chrome: 9, firefox: 1, updated: 2025-09-05)" src="./assets/badges/webext/simochee-backlog-pull-request-plus@dark.svg" width="800">
+    <img alt="Backlog Pull Request Plus - Chrome Web Store - Backlog Git のプルリクエスト画面にサイドバーや確認済みチェックボックスを追加するブラウザ拡張機能。 (version: 1.1.0, chrome: 9, firefox: 0, updated: 2025-09-05)" src="./assets/badges/webext/simochee-backlog-pull-request-plus@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/file-icons-for-backlog-git">
