@@ -91,21 +91,21 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-github-footer@light.svg">
-    <img alt="docsify-plugin-github-footer - Useful GitHub Pages links footer for Docsify (version: 1.0.1, hits: 123/month, updated: 2024-01-09, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
+    <img alt="docsify-plugin-github-footer - Useful GitHub Pages links footer for Docsify (version: 1.0.1, hits: 124/month, updated: 2024-01-09, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-github-footer@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-page-history">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@light.svg">
-    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 232/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
+    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 234/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-ga">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@light.svg">
-    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1561/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
+    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1535/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
   </picture>
 </a>
 
@@ -122,14 +122,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-file-icons-for-backlog-git@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-file-icons-for-backlog-git@light.svg">
-    <img alt="File Icons for Backlog Git - Chrome Web Store - Backlog Git にファイルアイコンを表示します (version: 1.2.0, chrome: 9, firefox: 0, updated: 2025-08-30)" src="./assets/badges/webext/simochee-file-icons-for-backlog-git@dark.svg" width="800">
+    <img alt="File Icons for Backlog Git - Chrome Web Store - Backlog Git にファイルアイコンを表示します (version: 1.2.0, chrome: 8, firefox: 0, updated: 2025-08-30)" src="./assets/badges/webext/simochee-file-icons-for-backlog-git@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/lollipop-onl/webextensions-backlog-notification">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@light.svg">
-    <img alt="Backlog Notification Extension - Chrome Web Store - Backlog のお知らせをメニューバーから通知・確認できる Web Extension です (version: 1.5.0, chrome: 194, firefox: 2, updated: 2025-01-15)" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
+    <img alt="Backlog Notification Extension - Chrome Web Store - Backlog のお知らせをメニューバーから通知・確認できる Web Extension です (version: 1.5.0, chrome: 198, firefox: 2, updated: 2025-01-15)" src="./assets/badges/webext/lollipop-onl-webextensions-backlog-notification@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/283-PiP">
@@ -143,7 +143,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-X2B@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-X2B@light.svg">
-    <img alt="X2B - Chrome Web Store - Redirect X's web intent link to Bluesky's action intent link. (version: 1.0.0, chrome: 3, firefox: 0, updated: 2024-10-01)" src="./assets/badges/webext/simochee-X2B@dark.svg" width="800">
+    <img alt="X2B - Chrome Web Store - Redirect X's web intent link to Bluesky's action intent link. (version: 1.0.0, chrome: 4, firefox: 0, updated: 2024-10-01)" src="./assets/badges/webext/simochee-X2B@dark.svg" width="800">
   </picture>
 </a>
 
