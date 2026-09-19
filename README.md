@@ -84,7 +84,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-shiki@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-shiki@light.svg">
-    <img alt="docsify-shiki - Replace syntax highlight with Shiki (version: 1.1.0, hits: 150/month, updated: 2025-01-19, license: MIT)" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
+    <img alt="docsify-shiki - Replace syntax highlight with Shiki (version: 1.1.0, hits: 151/month, updated: 2025-01-19, license: MIT)" src="./assets/badges/jsdelivr/docsify-shiki@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-github-footer">
@@ -98,14 +98,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-page-history@light.svg">
-    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 241/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
+    <img alt="docsify-plugin-page-history - Page-by-page history for Docsify (version: 1.3.6, hits: 249/month, updated: 2024-01-31, license: MIT)" src="./assets/badges/jsdelivr/docsify-plugin-page-history@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://www.jsdelivr.com/package/npm/docsify-plugin-ga">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/jsdelivr/docsify-plugin-ga@light.svg">
-    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1612/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
+    <img alt="docsify-plugin-ga - > **Note** > `plugins/gtag.min.js` is now included in Docsify. As this plugin is no longer necessary, please consider replacing it. > https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md#google-analytics-4-ga4 (version: 1.0.3, hits: 1593/month, updated: 2025-10-29, license: MIT) [DEPRECATED]" src="./assets/badges/jsdelivr/docsify-plugin-ga@dark.svg" width="800">
   </picture>
 </a>
 
@@ -136,7 +136,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/badges/webext/simochee-283-PiP@dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/badges/webext/simochee-283-PiP@light.svg">
-    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 50, updated: December 31, 2024)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
+    <img alt="283 PiP - Chrome Web Store - enza 版 アイドルマスター シャイニーカラーズ のゲームプレイ画面を小窓 (Picture-in-Picture) で表示します。 (version: 2.1.0, chrome: 50, updated: January 1, 2025)" src="./assets/badges/webext/simochee-283-PiP@dark.svg" width="800">
   </picture>
 </a>
 <a href="https://github.com/simochee/X2B">
